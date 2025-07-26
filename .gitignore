@@ -1,0 +1,11 @@
+notes.md
+tmp/
+tmp
+docker
+docker/
+.DS_Store
+.swp
+*.swp
+deploy/
+chathistory/
+chathistory/*

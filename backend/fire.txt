@@ -1,0 +1,8 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyBfVf_w9up56L8o1zJAhPS-UHX57lumekA",
+  authDomain: "fir-pulse-app.firebaseapp.com",
+  projectId: "fir-pulse-app",
+  storageBucket: "fir-pulse-app.firebasestorage.app",
+  messagingSenderId: "660958366144",
+  appId: "1:660958366144:web:b5c3a21db6bd6cfad76025"
+};

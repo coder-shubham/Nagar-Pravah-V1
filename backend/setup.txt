@@ -1,0 +1,455 @@
+# requirements.txt (Common for all agents)
+flask==2.3.3
+google-cloud-firestore==2.11.1
+google-cloud-pubsub==2.18.1
+google-cloud-translate==3.11.3
+google-generativeai==0.3.2
+googlemaps==4.10.0
+firebase-admin==6.2.0
+tweepy==4.14.0
+feedparser==6.0.10
+requests==2.31.0
+python-dateutil==2.8.2
+
+---
+
+# Dockerfile (Template for all agents - customize CMD for each)
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements and install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code
+COPY . .
+
+# Expose port
+EXPOSE 8080
+
+# Default command (customize for each agent)
+CMD ["python", "main.py"]
+
+---
+
+# docker-compose.yml (For local development)
+version: '3.8'
+
+services:
+  scout-agent:
+    build: 
+      context: ./scout-agent
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - TWITTER_CONSUMER_KEY=${TWITTER_CONSUMER_KEY}
+      - TWITTER_CONSUMER_SECRET=${TWITTER_CONSUMER_SECRET}
+      - TWITTER_ACCESS_TOKEN=${TWITTER_ACCESS_TOKEN}
+      - TWITTER_ACCESS_TOKEN_SECRET=${TWITTER_ACCESS_TOKEN_SECRET}
+    volumes:
+      - ./service-account-key.json:/app/service-account-key.json
+    
+  analyze-agent:
+    build:
+      context: ./analyze-agent
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8080"
+    environment:
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GOOGLE_MAPS_API_KEY=${GOOGLE_MAPS_API_KEY}
+    volumes:
+      - ./service-account-key.json:/app/service-account-key.json
+  
+  synthesize-agent:
+    build:
+      context: ./synthesize-agent
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8080"
+    environment:
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    volumes:
+      - ./service-account-key.json:/app/service-account-key.json
+  
+  personalize-agent:
+    build:
+      context: ./personalize-agent
+      dockerfile: Dockerfile
+    ports:
+      - "8084:8080"
+    environment:
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT}
+      - FIREBASE_SERVICE_ACCOUNT_KEY=/app/service-account-key.json
+    volumes:
+      - ./service-account-key.json:/app/service-account-key.json
+  
+  maps-agent:
+    build:
+      context: ./maps-agent
+      dockerfile: Dockerfile
+    ports:
+      - "8085:8080"
+    environment:
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT}
+    volumes:
+      - ./service-account-key.json:/app/service-account-key.json
+  
+  conversational-agent:
+    build:
+      context: ./conversational-agent
+      dockerfile: Dockerfile
+    ports:
+      - "8086:8080"
+    environment:
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GOOGLE_MAPS_API_KEY=${GOOGLE_MAPS_API_KEY}
+    volumes:
+      - ./service-account-key.json:/app/service-account-key.json
+
+---
+
+# .env (Environment variables template)
+GOOGLE_CLOUD_PROJECT=your-project-id
+GEMINI_API_KEY=your-gemini-api-key
+GOOGLE_MAPS_API_KEY=your-maps-api-key
+TWITTER_CONSUMER_KEY=your-twitter-consumer-key
+TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret
+TWITTER_ACCESS_TOKEN=your-twitter-access-token
+TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
+
+---
+
+# cloudbuild.yaml (For Google Cloud Build)
+steps:
+  # Build Scout Agent
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/scout-agent', './scout-agent']
+  
+  # Build Analyze Agent
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/analyze-agent', './analyze-agent']
+  
+  # Build Synthesize Agent
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/synthesize-agent', './synthesize-agent']
+  
+  # Build Personalize Agent
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/personalize-agent', './personalize-agent']
+  
+  # Build Maps Agent
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/maps-agent', './maps-agent']
+  
+  # Build Conversational Agent
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/conversational-agent', './conversational-agent']
+
+images:
+  - 'gcr.io/$PROJECT_ID/scout-agent'
+  - 'gcr.io/$PROJECT_ID/analyze-agent' 
+  - 'gcr.io/$PROJECT_ID/synthesize-agent'
+  - 'gcr.io/$PROJECT_ID/personalize-agent'
+  - 'gcr.io/$PROJECT_ID/maps-agent'
+  - 'gcr.io/$PROJECT_ID/conversational-agent'
+
+---
+
+# terraform/main.tf (Infrastructure as Code)
+terraform {
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 4.0"
+    }
+  }
+}
+
+provider "google" {
+  project = var.project_id
+  region  = var.region
+}
+
+variable "project_id" {
+  description = "Google Cloud Project ID"
+  type        = string
+}
+
+variable "region" {
+  description = "Google Cloud Region"
+  type        = string
+  default     = "asia-south1"
+}
+
+# Enable required APIs
+resource "google_project_service" "apis" {
+  for_each = toset([
+    "run.googleapis.com",
+    "firestore.googleapis.com",
+    "pubsub.googleapis.com",
+    "cloudscheduler.googleapis.com",
+    "translate.googleapis.com",
+    "maps-backend.googleapis.com"
+  ])
+  
+  service = each.key
+  disable_on_destroy = false
+}
+
+# Create Pub/Sub topics
+resource "google_pubsub_topic" "new_story_topic" {
+  name = "new-story-topic"
+  
+  depends_on = [google_project_service.apis]
+}
+
+# Create Cloud Run services
+resource "google_cloud_run_service" "scout_agent" {
+  name     = "scout-agent"
+  location = var.region
+
+  template {
+    spec {
+      containers {
+        image = "gcr.io/${var.project_id}/scout-agent"
+        
+        env {
+          name = "GOOGLE_CLOUD_PROJECT"
+          value = var.project_id
+        }
+      }
+      
+      service_account_name = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+resource "google_cloud_run_service" "analyze_agent" {
+  name     = "analyze-agent"
+  location = var.region
+
+  template {
+    spec {
+      containers {
+        image = "gcr.io/${var.project_id}/analyze-agent"
+        
+        env {
+          name = "GOOGLE_CLOUD_PROJECT"
+          value = var.project_id
+        }
+      }
+      
+      service_account_name = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+resource "google_cloud_run_service" "synthesize_agent" {
+  name     = "synthesize-agent"
+  location = var.region
+
+  template {
+    spec {
+      containers {
+        image = "gcr.io/${var.project_id}/synthesize-agent"
+        
+        env {
+          name = "GOOGLE_CLOUD_PROJECT"
+          value = var.project_id
+        }
+      }
+      
+      service_account_name = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+resource "google_cloud_run_service" "personalize_agent" {
+  name     = "personalize-agent"
+  location = var.region
+
+  template {
+    spec {
+      containers {
+        image = "gcr.io/${var.project_id}/personalize-agent"
+        
+        env {
+          name = "GOOGLE_CLOUD_PROJECT"
+          value = var.project_id
+        }
+      }
+      
+      service_account_name = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+resource "google_cloud_run_service" "maps_agent" {
+  name     = "maps-agent"
+  location = var.region
+
+  template {
+    spec {
+      containers {
+        image = "gcr.io/${var.project_id}/maps-agent"
+        
+        env {
+          name = "GOOGLE_CLOUD_PROJECT"
+          value = var.project_id
+        }
+      }
+      
+      service_account_name = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+resource "google_cloud_run_service" "conversational_agent" {
+  name     = "conversational-agent"
+  location = var.region
+
+  template {
+    spec {
+      containers {
+        image = "gcr.io/${var.project_id}/conversational-agent"
+        
+        env {
+          name = "GOOGLE_CLOUD_PROJECT"
+          value = var.project_id
+        }
+      }
+      
+      service_account_name = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+# Service Account for agents
+resource "google_service_account" "agents_sa" {
+  account_id   = "nagar-pravah-agents"
+  display_name = "Nagar Pravah Agents Service Account"
+  description  = "Service account for all Nagar Pravah agents"
+}
+
+# IAM roles for the service account
+resource "google_project_iam_member" "firestore_user" {
+  project = var.project_id
+  role    = "roles/datastore.user"
+  member  = "serviceAccount:${google_service_account.agents_sa.email}"
+}
+
+resource "google_project_iam_member" "pubsub_editor" {
+  project = var.project_id
+  role    = "roles/pubsub.editor"
+  member  = "serviceAccount:${google_service_account.agents_sa.email}"
+}
+
+# Cloud Scheduler jobs
+resource "google_cloud_scheduler_job" "trigger_scout_agent" {
+  name     = "trigger-scout-agent"
+  schedule = "*/5 * * * *"  # Every 5 minutes
+  
+  http_target {
+    http_method = "POST"
+    uri         = "${google_cloud_run_service.scout_agent.status[0].url}/"
+    
+    oidc_token {
+      service_account_email = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+resource "google_cloud_scheduler_job" "trigger_analyze_agent" {
+  name     = "trigger-analyze-agent"
+  schedule = "*/5 * * * *"  # Every 5 minutes
+  
+  http_target {
+    http_method = "POST"
+    uri         = "${google_cloud_run_service.analyze_agent.status[0].url}/"
+    
+    oidc_token {
+      service_account_email = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+resource "google_cloud_scheduler_job" "trigger_synthesize_agent" {
+  name     = "trigger-synthesize-agent"
+  schedule = "*/5 * * * *"  # Every 5 minutes
+  
+  http_target {
+    http_method = "POST"
+    uri         = "${google_cloud_run_service.synthesize_agent.status[0].url}/"
+    
+    oidc_token {
+      service_account_email = google_service_account.agents_sa.email
+    }
+  }
+  
+  depends_on = [google_project_service.apis]
+}
+
+# Pub/Sub subscriptions for push endpoints
+resource "google_pubsub_subscription" "personalize_subscription" {
+  name  = "personalize-agent-subscription"
+  topic = google_pubsub_topic.new_story_topic.name
+
+  push_config {
+    push_endpoint = "${google_cloud_run_service.personalize_agent.status[0].url}/_ah/push-handlers/new-story"
+    
+    oidc_token {
+      service_account_email = google_service_account.agents_sa.email
+    }
+  }
+}
+
+resource "google_pubsub_subscription" "maps_subscription" {
+  name  = "maps-agent-subscription"
+  topic = google_pubsub_topic.new_story_topic.name
+
+  push_config {
+    push_endpoint = "${google_cloud_run_service.maps_agent.status[0].url}/_ah/push-handlers/new-story"
+    
+    oidc_token {
+      service_account_email = google_service_account.agents_sa.email
+    }
+  }
+}
+
+# Outputs
+output "scout_agent_url" {
+  value = google_cloud_run_service.scout_agent.status[0].url
+}
+
+output "conversational_agent_url" {
+  value = google_cloud_run_service.conversational_agent.status[0].url
+}

@@ -1,0 +1,658 @@
+#!/bin/bash
+# deploy.sh - Main deployment script for Nagar Pravah platform
+
+set -e  # Exit on any error
+
+# Configuration
+PROJECT_ID="your-project-id"
+REGION="asia-south1"
+SERVICE_ACCOUNT="nagar-pravah-agents@${PROJECT_ID}.iam.gserviceaccount.com"
+
+echo "🚀 Starting deployment of Nagar Pravah platform..."
+
+# Function to check if required tools are installed
+check_dependencies() {
+    echo "📋 Checking dependencies..."
+    
+    command -v gcloud >/dev/null 2>&1 || { echo "❌ gcloud CLI is required but not installed. Aborting." >&2; exit 1; }
+    command -v docker >/dev/null 2>&1 || { echo "❌ Docker is required but not installed. Aborting." >&2; exit 1; }
+    command -v terraform >/dev/null 2>&1 || { echo "❌ Terraform is required but not installed. Aborting." >&2; exit 1; }
+    
+    echo "✅ All dependencies are installed"
+}
+
+# Function to setup Google Cloud project
+setup_gcloud() {
+    echo "🔧 Setting up Google Cloud configuration..."
+    
+    gcloud config set project $PROJECT_ID
+    gcloud config set compute/region $REGION
+    
+    # Enable required APIs
+    echo "🔌 Enabling required APIs..."
+    gcloud services enable run.googleapis.com
+    gcloud services enable firestore.googleapis.com
+    gcloud services enable pubsub.googleapis.com
+    gcloud services enable cloudscheduler.googleapis.com
+    gcloud services enable translate.googleapis.com
+    gcloud services enable maps-backend.googleapis.com
+    gcloud services enable cloudbuild.googleapis.com
+    
+    echo "✅ Google Cloud setup complete"
+}
+
+# Function to build and push Docker images
+build_and_push_images() {
+    echo "🏗️  Building and pushing Docker images..."
+    
+    # Use Cloud Build for building all images
+    gcloud builds submit --config=cloudbuild.yaml .
+    
+    echo "✅ All images built and pushed successfully"
+}
+
+# Function to deploy infrastructure with Terraform
+deploy_infrastructure() {
+    echo "🏛️  Deploying infrastructure with Terraform..."
+    
+    cd terraform
+    
+    # Initialize Terraform
+    terraform init
+    
+    # Plan the deployment
+    terraform plan -var="project_id=$PROJECT_ID" -var="region=$REGION"
+    
+    # Apply the configuration
+    terraform apply -auto-approve -var="project_id=$PROJECT_ID" -var="region=$REGION"
+    
+    cd ..
+    
+    echo "✅ Infrastructure deployed successfully"
+}
+
+# Function to setup Firestore database
+setup_firestore() {
+    echo "🗄️  Setting up Firestore database..."
+    
+    # Create Firestore database (if not exists)
+    gcloud firestore databases create --region=$REGION --type=firestore-native || echo "Database already exists"
+    
+    # Deploy security rules
+    gcloud firestore indexes create firestore.indexes.json || echo "Indexes may already exist"
+    gcloud firestore rules create firestore.rules || echo "Rules may already exist"
+    
+    # Set up TTL policy for scouted-data collection
+    echo "⏰ Setting up TTL policy for scouted-data collection..."
+    # Note: TTL policies need to be set up via Firebase Console or Admin SDK
+    # This is a placeholder for the TTL setup
+    
+    echo "✅ Firestore setup complete"
+}
+
+# Function to configure Cloud Scheduler
+setup_scheduler() {
+    echo "⏰ Setting up Cloud Scheduler jobs..."
+    
+    # The scheduler jobs are created by Terraform, but we can verify they exist
+    gcloud scheduler jobs list --location=$REGION
+    
+    echo "✅ Cloud Scheduler setup complete"
+}
+
+# Function to setup monitoring and alerting
+setup_monitoring() {
+    echo "📊 Setting up monitoring and alerting..."
+    
+    # Create log-based metrics for error tracking
+    gcloud logging metrics create agent_errors \
+        --description="Count of agent errors" \
+        --log-filter='resource.type="cloud_run_revision" AND severity>=ERROR' || echo "Metric may already exist"
+    
+    # Create uptime checks for critical services
+    # This would typically be done via Terraform or Cloud Console
+    
+    echo "✅ Monitoring setup complete"
+}
+
+# Function to run initial data validation
+validate_deployment() {
+    echo "🔍 Validating deployment..."
+    
+    # Test each agent endpoint
+    AGENTS=("scout-agent" "analyze-agent" "synthesize-agent" "personalize-agent" "maps-agent" "conversational-agent")
+    
+    for agent in "${AGENTS[@]}"; do
+        SERVICE_URL=$(gcloud run services describe $agent --region=$REGION --format="value(status.url)")
+        
+        if [ ! -z "$SERVICE_URL" ]; then
+            echo "✅ $agent deployed at $SERVICE_URL"
+            # Test health endpoint
+            curl -f "$SERVICE_URL/health" > /dev/null 2>&1 && echo "  ✅ Health check passed" || echo "  ⚠️  Health check failed"
+        else
+            echo "❌ $agent deployment failed"
+        fi
+    done
+    
+    echo "✅ Deployment validation complete"
+}
+
+# Main deployment flow
+main() {
+    echo "🌟 Nagar Pravah Platform Deployment"
+    echo "=================================="
+    
+    check_dependencies
+    setup_gcloud
+    build_and_push_images
+    deploy_infrastructure
+    setup_firestore
+    setup_scheduler
+    setup_monitoring
+    validate_deployment
+    
+    echo ""
+    echo "🎉 Deployment completed successfully!"
+    echo ""
+    echo "📋 Next steps:"
+    echo "1. Set up your API keys in Secret Manager"
+    echo "2. Configure Firebase Authentication"
+    echo "3. Test the conversational agent endpoint"
+    echo "4. Deploy the mobile app"
+    echo ""
+    echo "🔗 Conversational Agent URL:"
+    gcloud run services describe conversational-agent --region=$REGION --format="value(status.url)"
+}
+
+# Run main function
+main "$@"
+
+---
+
+# firestore.indexes.json - Firestore composite indexes
+{
+  "indexes": [
+    {
+      "collectionGroup": "scouted-data",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "fetched_at",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "analyzed-data", 
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "priority_score",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "analyzed-data",
+      "queryScope": "COLLECTION", 
+      "fields": [
+        {
+          "fieldPath": "category",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "synthesized-events",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "created_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "synthesized-events",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "severity",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created_at", 
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "map-data",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "map_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
+
+---
+
+# setup-secrets.sh - Script to setup API keys in Secret Manager
+#!/bin/bash
+
+set -e
+
+PROJECT_ID="your-project-id"
+
+echo "🔐 Setting up API keys in Secret Manager..."
+
+# Enable Secret Manager API
+gcloud services enable secretmanager.googleapis.com
+
+# Create secrets (you'll need to provide the actual values)
+read -s -p "Enter Gemini API Key: " GEMINI_KEY
+echo ""
+gcloud secrets create gemini-api-key --data-file=<(echo -n "$GEMINI_KEY")
+
+read -s -p "Enter Google Maps API Key: " MAPS_KEY  
+echo ""
+gcloud secrets create google-maps-api-key --data-file=<(echo -n "$MAPS_KEY")
+
+read -s -p "Enter Twitter Consumer Key: " TWITTER_CONSUMER_KEY
+echo ""
+gcloud secrets create twitter-consumer-key --data-file=<(echo -n "$TWITTER_CONSUMER_KEY")
+
+read -s -p "Enter Twitter Consumer Secret: " TWITTER_CONSUMER_SECRET
+echo ""
+gcloud secrets create twitter-consumer-secret --data-file=<(echo -n "$TWITTER_CONSUMER_SECRET")
+
+read -s -p "Enter Twitter Access Token: " TWITTER_ACCESS_TOKEN
+echo ""
+gcloud secrets create twitter-access-token --data-file=<(echo -n "$TWITTER_ACCESS_TOKEN")
+
+read -s -p "Enter Twitter Access Token Secret: " TWITTER_ACCESS_TOKEN_SECRET
+echo ""
+gcloud secrets create twitter-access-token-secret --data-file=<(echo -n "$TWITTER_ACCESS_TOKEN_SECRET")
+
+# Grant access to the service account
+SERVICE_ACCOUNT="nagar-pravah-agents@${PROJECT_ID}.iam.gserviceaccount.com"
+
+SECRETS=("gemini-api-key" "google-maps-api-key" "twitter-consumer-key" "twitter-consumer-secret" "twitter-access-token" "twitter-access-token-secret")
+
+for secret in "${SECRETS[@]}"; do
+    gcloud secrets add-iam-policy-binding $secret \
+        --member="serviceAccount:$SERVICE_ACCOUNT" \
+        --role="roles/secretmanager.secretAccessor"
+done
+
+echo "✅ All secrets configured successfully!"
+
+---
+
+# update-deployment.sh - Script for updating specific agents
+#!/bin/bash
+
+set -e
+
+PROJECT_ID="your-project-id"
+REGION="asia-south1"
+
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <agent-name>"
+    echo "Available agents: scout-agent, analyze-agent, synthesize-agent, personalize-agent, maps-agent, conversational-agent"
+    exit 1
+fi
+
+AGENT_NAME=$1
+
+echo "🔄 Updating $AGENT_NAME..."
+
+# Build and push the specific agent
+gcloud builds submit --config=cloudbuild-single.yaml --substitutions=_AGENT_NAME=$AGENT_NAME .
+
+# Deploy the updated service
+gcloud run deploy $AGENT_NAME \
+    --image gcr.io/$PROJECT_ID/$AGENT_NAME \
+    --region $REGION \
+    --service-account nagar-pravah-agents@${PROJECT_ID}.iam.gserviceaccount.com \
+    --set-env-vars GOOGLE_CLOUD_PROJECT=$PROJECT_ID \
+    --allow-unauthenticated
+
+echo "✅ $AGENT_NAME updated successfully!"
+
+---
+
+# cloudbuild-single.yaml - For updating individual agents
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/${_AGENT_NAME}', './${_AGENT_NAME}']
+
+images:
+  - 'gcr.io/$PROJECT_ID/${_AGENT_NAME}'
+
+substitutions:
+  _AGENT_NAME: 'scout-agent'  # Default, will be overridden
+
+---
+
+# monitoring-setup.sh - Advanced monitoring setup
+#!/bin/bash
+
+set -e
+
+PROJECT_ID="your-project-id"
+REGION="asia-south1"
+
+echo "📊 Setting up advanced monitoring for Nagar Pravah..."
+
+# Create custom metrics
+echo "📈 Creating custom metrics..."
+
+# Agent execution metrics
+gcloud logging metrics create scout_agent_executions \
+    --description="Count of scout agent executions" \
+    --log-filter='resource.type="cloud_run_revision" AND resource.labels.service_name="scout-agent" AND textPayload:"Starting scout cycle"' || echo "Metric exists"
+
+gcloud logging metrics create analyze_agent_processing \
+    --description="Count of documents processed by analyze agent" \
+    --log-filter='resource.type="cloud_run_revision" AND resource.labels.service_name="analyze-agent" AND textPayload:"Processing"' || echo "Metric exists"
+
+# Error metrics
+gcloud logging metrics create agent_errors \
+    --description="Count of agent errors" \
+    --log-filter='resource.type="cloud_run_revision" AND (resource.labels.service_name:"agent" OR resource.labels.service_name:"scout-agent" OR resource.labels.service_name:"analyze-agent") AND severity>=ERROR' || echo "Metric exists"
+
+# Create alerting policies
+echo "🚨 Creating alerting policies..."
+
+# High error rate alert
+cat > error-alert-policy.json << EOF
+{
+  "displayName": "High Error Rate - Nagar Pravah Agents",
+  "conditions": [
+    {
+      "displayName": "Agent error rate",
+      "conditionThreshold": {
+        "filter": "resource.type=\"cloud_run_revision\" AND metric.type=\"logging.googleapis.com/user/agent_errors\"",
+        "comparison": "COMPARISON_GREATER_THAN",
+        "thresholdValue": 5,
+        "duration": "300s",
+        "aggregations": [
+          {
+            "alignmentPeriod": "300s",
+            "perSeriesAligner": "ALIGN_RATE"
+          }
+        ]
+      }
+    }
+  ],
+  "combiner": "OR",
+  "enabled": true,
+  "notificationChannels": []
+}
+EOF
+
+gcloud alpha monitoring policies create --policy-from-file=error-alert-policy.json || echo "Policy may already exist"
+
+# Create dashboard
+echo "📊 Creating monitoring dashboard..."
+
+cat > dashboard-config.json << EOF
+{
+  "displayName": "Nagar Pravah Platform Dashboard",
+  "mosaicLayout": {
+    "tiles": [
+      {
+        "width": 6,
+        "height": 4,
+        "widget": {
+          "title": "Agent Request Rate",
+          "xyChart": {
+            "dataSets": [
+              {
+                "timeSeriesQuery": {
+                  "timeSeriesFilter": {
+                    "filter": "resource.type=\"cloud_run_revision\" AND resource.labels.service_name:(\"scout-agent\" OR \"analyze-agent\" OR \"synthesize-agent\")",
+                    "aggregation": {
+                      "alignmentPeriod": "60s",
+                      "perSeriesAligner": "ALIGN_RATE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "width": 6,
+        "height": 4,
+        "xPos": 6,
+        "widget": {
+          "title": "Agent Error Rate",
+          "xyChart": {
+            "dataSets": [
+              {
+                "timeSeriesQuery": {
+                  "timeSeriesFilter": {
+                    "filter": "resource.type=\"cloud_run_revision\" AND metric.type=\"logging.googleapis.com/user/agent_errors\"",
+                    "aggregation": {
+                      "alignmentPeriod": "300s",
+                      "perSeriesAligner": "ALIGN_RATE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
+EOF
+
+gcloud monitoring dashboards create --config-from-file=dashboard-config.json || echo "Dashboard may already exist"
+
+# Clean up temporary files
+rm -f error-alert-policy.json dashboard-config.json
+
+echo "✅ Monitoring setup complete!"
+
+---
+
+# test-deployment.sh - Comprehensive testing script
+#!/bin/bash
+
+set -e
+
+PROJECT_ID="your-project-id"
+REGION="asia-south1"
+
+echo "🧪 Testing Nagar Pravah deployment..."
+
+# Test each agent's health endpoint
+test_agent_health() {
+    local agent_name=$1
+    echo "🔍 Testing $agent_name..."
+    
+    SERVICE_URL=$(gcloud run services describe $agent_name --region=$REGION --format="value(status.url)" 2>/dev/null || echo "")
+    
+    if [ -z "$SERVICE_URL" ]; then
+        echo "❌ $agent_name: Service not found"
+        return 1
+    fi
+    
+    # Test health endpoint
+    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "$SERVICE_URL/health" || echo "000")
+    
+    if [ "$HTTP_CODE" = "200" ]; then
+        echo "✅ $agent_name: Health check passed"
+    else
+        echo "❌ $agent_name: Health check failed (HTTP $HTTP_CODE)"
+        return 1
+    fi
+}
+
+# Test conversational agent with sample query
+test_conversational_agent() {
+    echo "🤖 Testing conversational agent..."
+    
+    SERVICE_URL=$(gcloud run services describe conversational-agent --region=$REGION --format="value(status.url)")
+    
+    if [ -z "$SERVICE_URL" ]; then
+        echo "❌ Conversational agent not found"
+        return 1
+    fi
+    
+    # Test with sample query
+    RESPONSE=$(curl -s -X POST "$SERVICE_URL/chat" \
+        -H "Content-Type: application/json" \
+        -d '{"query": "What is the traffic situation in Bangalore?", "user_id": "test-user"}' || echo "")
+    
+    if echo "$RESPONSE" | grep -q "status.*success"; then
+        echo "✅ Conversational agent: Query test passed"
+    else
+        echo "❌ Conversational agent: Query test failed"
+        echo "Response: $RESPONSE"
+        return 1
+    fi
+}
+
+# Test Firestore connectivity
+test_firestore() {
+    echo "🗄️  Testing Firestore connectivity..."
+    
+    # This would require additional setup, but we can check if the database exists
+    if gcloud firestore databases describe --database="(default)" >/dev/null 2>&1; then
+        echo "✅ Firestore: Database accessible"
+    else
+        echo "❌ Firestore: Database not accessible"
+        return 1
+    fi
+}
+
+# Test Pub/Sub topics
+test_pubsub() {
+    echo "📡 Testing Pub/Sub setup..."
+    
+    if gcloud pubsub topics describe new-story-topic >/dev/null 2>&1; then
+        echo "✅ Pub/Sub: Topics configured correctly"
+    else
+        echo "❌ Pub/Sub: Topics not found"
+        return 1
+    fi
+}
+
+# Test Cloud Scheduler jobs
+test_scheduler() {
+    echo "⏰ Testing Cloud Scheduler..."
+    
+    JOBS=$(gcloud scheduler jobs list --location=$REGION --format="value(name)" 2>/dev/null | wc -l)
+    
+    if [ "$JOBS" -ge 3 ]; then
+        echo "✅ Cloud Scheduler: Jobs configured correctly ($JOBS jobs found)"
+    else
+        echo "❌ Cloud Scheduler: Insufficient jobs found ($JOBS jobs)"
+        return 1
+    fi
+}
+
+# Main test execution
+main() {
+    echo "🧪 Nagar Pravah Platform Testing"
+    echo "================================"
+    
+    FAILED_TESTS=0
+    
+    # Test infrastructure components
+    test_firestore || ((FAILED_TESTS++))
+    test_pubsub || ((FAILED_TESTS++)) 
+    test_scheduler || ((FAILED_TESTS++))
+    
+    # Test each agent
+    AGENTS=("scout-agent" "analyze-agent" "synthesize-agent" "personalize-agent" "maps-agent" "conversational-agent")
+    
+    for agent in "${AGENTS[@]}"; do
+        test_agent_health $agent || ((FAILED_TESTS++))
+    done
+    
+    # Test conversational agent functionality
+    test_conversational_agent || ((FAILED_TESTS++))
+    
+    echo ""
+    if [ $FAILED_TESTS -eq 0 ]; then
+        echo "🎉 All tests passed! Deployment is healthy."
+        echo ""
+        echo "📋 Platform URLs:"
+        echo "Conversational Agent: $(gcloud run services describe conversational-agent --region=$REGION --format="value(status.url)")"
+        echo ""
+        echo "🚀 Your Nagar Pravah platform is ready for use!"
+    else
+        echo "❌ $FAILED_TESTS test(s) failed. Please check the deployment."
+        exit 1
+    fi
+}
+
+# Run tests
+main "$@"
+
+---
+
+# backup-setup.sh - Database backup configuration
+#!/bin/bash
+
+set -e
+
+PROJECT_ID="your-project-id"
+REGION="asia-south1"
+
+echo "💾 Setting up automated backups for Nagar Pravah..."
+
+# Create Cloud Storage bucket for backups
+BACKUP_BUCKET="${PROJECT_ID}-nagar-pravah-backups"
+
+gsutil mb -p $PROJECT_ID -c STANDARD -l $REGION gs://$BACKUP_BUCKET/ || echo "Bucket may already exist"
+
+# Create backup script
+cat > firestore-backup.sh << 'EOF'
+#!/bin/bash
+DATE=$(date +%Y-%m-%d-%H-%M-%S)
+PROJECT_ID="your-project-id"
+BACKUP_BUCKET="your-project-id-nagar-pravah-backups"
+
+echo "Starting Firestore backup at $DATE..."
+
+gcloud firestore export gs://$BACKUP_BUCKET/firestore-backups/$DATE \
+    --collection-ids=synthesized-events,user-profiles,map-data
+
+echo "Backup completed successfully!"
+EOF
+
+chmod +x firestore-backup.sh
+
+# Create Cloud Function for automated backups (basic version)
+echo "📅 Setting up automated backup schedule..."
+
+# This would typically be implemented as a Cloud Function triggered by Cloud Scheduler
+echo "Manual backup script created: firestore-backup.sh"
+echo "For automated backups, deploy this as a Cloud Function with Cloud Scheduler trigger"
+
+echo "✅ Backup setup complete!"

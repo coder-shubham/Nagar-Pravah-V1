@@ -1,0 +1,1056 @@
+```json
+[
+  {
+    "content": "Join the 'Agentic AI Day', a groundbreaking 30-hour hackathon happening at the Bangalore International Exhibition Centre (BIEC). This monumental event aims to set a new world record with over 700 teams competing simultaneously. Participants will tackle real-world problems using the latest in agentic AI frameworks and large language models. Mentors from top tech giants will be on-site to provide guidance. The event is going on and concludes with a grand prize ceremony the following day, July 27th, 2025. Whether you are a seasoned developer or an AI enthusiast, this is an unparalleled opportunity to innovate, network, and be part of a historic moment in Bangalore's tech scene. Food, beverages, and high-speed internet will be provided throughout. The event is fully booked.",
+    "location": "BIEC, Madavara, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:15:22.123+05:30"
+  },
+  {
+    "content": "Global superstar Ed Sheeran is set to mesmerize Bangalore with his 'Mathematics Tour' next year. The highly anticipated concert will take place at the massive open-air grounds of Phoenix Marketcity in Mahadevpura on August 7th, 2026. Fans can expect a magical evening as Sheeran performs his greatest hits, from 'Shape of You' to 'Perfect', using his signature loop pedal setup. The show will begin at 6:00 PM, with gates opening two hours prior. This will be his only stop in South India, making it a must-attend event for music lovers across the region. Tickets are expected to sell out quickly, with pre-sale registration opening next month. Prepare for an unforgettable night of music under the stars with one of the world's most talented singer-songwriters.",
+    "location": "Phoenix Marketcity, Mahadevpura, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:48:05.456+05:30"
+  },
+  {
+    "content": "Experience the timeless drama of Girish Karnad's 'Hayavadana', presented live at Ranga Shankara in JP Nagar. This iconic play explores themes of identity, completeness, and human desire through a powerful narrative. The show is scheduled for this coming weekend, on August 2nd and 3rd, 2025, with performances at 7:30 PM each evening. Directed by a renowned local theatre personality, this production features a talented cast that brings the complex characters to life with emotional depth and nuance. The intimate setting of Ranga Shankara provides the perfect atmosphere for this thought-provoking piece. Tickets are available on the Ranga Shankara website and are selling fast. It is a fantastic opportunity for theatre enthusiasts to witness a masterpiece of Indian literature performed live on stage.",
+    "location": "Ranga Shankara, JP Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:22:30.819+05:30"
+  },
+  {
+    "content": "Indulge your taste buds at the Koramangala Food Carnival, a three-day gastronomic extravaganza starting today, July 26th, 2025. Held at the open grounds near the Koramangala Indoor Stadium, this festival brings together over 50 of the city's best food trucks, pop-up restaurants, and artisanal bakers. From 12:00 PM to 10:00 PM daily, you can explore a world of flavors, from spicy chaats to gourmet burgers and decadent desserts. The event also features live music performances in the evening, a dedicated kids' play area, and several cooking workshops hosted by celebrated local chefs. It's the perfect weekend plan for families and foodies looking to discover new culinary delights. Entry is a nominal fee, with food and drink purchases separate. Don't miss this celebration of Bangalore's vibrant food culture.",
+    "location": "Koramangala Indoor Stadium Grounds, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:05:14.234+05:30"
+  },
+  {
+    "content": "Calling all developers and tech enthusiasts! The RustLang Bangalore community is hosting its monthly meetup tonight, July 26th, 2025, at WeWork Galaxy on Residency Road. The session begins at 6:30 PM. This month's focus is on 'Concurrency in Rust: Fearless Parallelism'. The evening will feature two technical talks: one on async/await patterns and another on using Rayon for data parallelism. Following the talks, there will be an open 'show-and-tell' session where members can share their personal projects. It’s an excellent platform for learning, sharing knowledge, and networking with fellow Rustaceans in the city. Pizza and refreshments will be provided. The event is free to attend, but registration on Meetup.com is mandatory due to limited seating. Come and join the conversation!",
+    "location": "WeWork Galaxy, Residency Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T13:11:55.678+05:30"
+  },
+  {
+    "content": "Prepare for a night of high-energy rock music as local legends Thermal and a Quarter take the stage at Fandom at Gilly's Redefined in Koramangala. The gig is happening tomorrow night, July 27th, 2025, starting at 8:30 PM. Known for their unique 'Bangalore Rock' sound, the band will be performing a mix of their classic hits and new material from their upcoming album. This intimate venue is renowned for its great acoustics and electrifying atmosphere, promising an unforgettable experience for rock fans. It's a fantastic chance to see one of India's most pioneering rock bands live in their element. Tickets are available online and at the venue, but advance booking is recommended as their shows often sell out. Don't miss this powerhouse performance.",
+    "location": "Fandom at Gilly's Redefined, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T18:45:10.991+05:30"
+  },
+  {
+    "content": "The Bangalore International Centre in Domlur is hosting a crucial panel discussion on 'The Future of Urban Mobility' on August 5th, 2025, at 6:00 PM. As Bangalore grapples with traffic congestion, this event brings together urban planners, policymakers, tech innovators, and citizen activists to discuss sustainable solutions. The panel will explore topics like integrated public transport, the role of EV infrastructure, and data-driven traffic management. Key speakers include representatives from the BMRCL and leading mobility startups. The session will conclude with a Q&A, allowing the audience to engage directly with the experts. This is a vital conversation for every resident concerned about the city's future. The event is free and open to all, with prior registration required on the BIC website to reserve your seat.",
+    "location": "Bangalore International Centre, Domlur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:30:00.112+05:30"
+  },
+  {
+    "content": "Embrace tranquility and start your day with 'Sunrise Yoga at Cubbon Park'. These free sessions are held every morning from 6:30 AM to 7:30 AM near the Bandstand. Led by certified instructors from the city's top yoga schools, the classes are open to all levels, from complete beginners to advanced practitioners. Participants are guided through a series of asanas, pranayama (breathing exercises), and a short meditation to help rejuvenate the mind and body. It’s a wonderful community initiative that promotes health and wellness amidst the lush greenery of the park. All you need to bring is your own yoga mat and a water bottle. No registration is required; just show up and join in. It's the perfect way to connect with nature and yourself before the hustle of the day begins.",
+    "location": "Cubbon Park, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T05:55:43.321+05:30"
+  },
+  {
+    "content": "Unleash your creativity at 'The Art of Storytelling', a two-day immersive workshop happening on August 9th and 10th, 2025, at Lahe Lahe in Indiranagar. Facilitated by a professional storyteller and author, this workshop is designed for aspiring writers, public speakers, marketers, and anyone looking to improve their narrative skills. From 10:00 AM to 4:00 PM each day, participants will learn the core elements of a compelling story, character development techniques, and effective delivery methods. The sessions will be highly interactive, with practical exercises, group activities, and personal feedback. By the end of the workshop, you will have a structured approach to crafting and telling stories that captivate and persuade. Seats are limited to ensure personalized attention. Register online via the Lahe Lahe website.",
+    "location": "Lahe Lahe, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:01:18.489+05:30"
+  },
+  {
+    "content": "Discover the vibrant world of organic produce at the HSR Layout Organic Farmer's Market, taking place this Sunday, July 28th, 2025. Located at the BDA Complex grounds, the market runs from 8:00 AM to 1:00 PM. This weekly event connects you directly with local farmers, offering a wide array of fresh, chemical-free vegetables, fruits, millets, and greens. In addition to produce, you can find artisanal bread, homemade jams, organic honey, and natural home cleaners. It’s more than just a market; it's a community gathering that promotes a sustainable and healthy lifestyle. It’s an excellent opportunity to teach children about where their food comes from and to support local agriculture. Remember to bring your own cloth bags to contribute to a plastic-free environment.",
+    "location": "BDA Complex, HSR Layout, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:29:33.781+05:30"
+  },
+  {
+    "content": "The National Gallery of Modern Art (NGMA) on Palace Road is currently showcasing 'Chiaroscuro: A Study in Light and Shadow'. This captivating exhibition features a curated collection of paintings and photographs from renowned Indian artists, exploring the dramatic interplay of light and dark. The exhibition is ongoing and will run until August 31st, 2025. It provides a deep dive into how artists across different eras have used this technique to create mood, depth, and emotional intensity. The gallery is open from 11:00 AM to 6:30 PM, Tuesday to Sunday. This is a must-see for art lovers, students, and anyone interested in the technical and emotional aspects of visual art. Entry tickets can be purchased at the venue. An audio guide is also available for a more immersive experience.",
+    "location": "NGMA, Palace Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:02:45.912+05:30"
+  },
+  {
+    "content": "Get ready for a night of uncontrollable laughter at 'Comedy Crackdown', a stand-up special featuring some of Bangalore's funniest comedians. The show is set for tonight, July 26th, 2025, at the popular That Comedy Club in Koramangala, starting at 8:00 PM. The lineup includes a mix of seasoned pros and rising stars, each bringing their unique style of humor, from observational comedy to witty one-liners about life in the city. It’s the perfect way to unwind after a long week and share some laughs with friends. The intimate club setting ensures every seat is a good one. Tickets are selling out fast, so book yours online to avoid disappointment. Doors open at 7:30 PM. Be prepared for an evening of hilarious stories and sharp wit.",
+    "location": "That Comedy Club, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:33:19.555+05:30"
+  },
+  {
+    "content": "DevOps Unleashed 2025, Bangalore's premier conference for DevOps, SRE, and platform engineering professionals, is happening on September 5th and 6th, 2025. Hosted at the Sheraton Grand at Brigade Gateway, this two-day event will feature over 40 speakers from leading global tech companies. The agenda is packed with keynotes, technical deep dives, and panel discussions on topics like GitOps, observability, cloud-native security, and building internal developer platforms. It's an unparalleled opportunity for professionals to learn about the latest trends, share best practices, and network with peers and industry leaders. A hands-on workshop day is also scheduled for September 4th. Early bird tickets are now available online, offering a significant discount. Don't miss your chance to be part of this influential tech gathering.",
+    "location": "Sheraton Grand, Brigade Gateway, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:45:01.303+05:30"
+  },
+  {
+    "content": "Experience the soulful magic of a Qawwali night with 'Echoes of Sufi', featuring the acclaimed Nizami Bandhu. This enchanting musical evening will take place at the Chowdiah Memorial Hall in Malleswaram tomorrow, July 27th, 2025, at 7:00 PM. The performers will present a mesmerizing selection of classic Sufi poems and qawwalis that speak of love, devotion, and mysticism. The unique architecture and acoustics of the venue are perfectly suited for such a performance, promising an immersive auditory experience. This event is a rare opportunity to witness an authentic and powerful tradition of music in the heart of Bangalore. Tickets are tiered and available on all major booking platforms. It's an evening designed to touch the soul and is highly recommended for lovers of classical and spiritual music.",
+    "location": "Chowdiah Memorial Hall, Malleswaram, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T19:01:23.444+05:30"
+  },
+  {
+    "content": "The Bangalore International Short Film Festival (BISFF), an Oscar-accredited event, will be held from August 21st to 28th, 2025. Screenings will take place at multiple venues including PVR Orion Mall and Alliance Française de Bangalore. This celebrated festival showcases an extraordinary collection of short films from India and around the world, spanning various genres like fiction, documentary, and animation. It serves as a significant platform for both emerging and established filmmakers. Attendees can participate in Q&A sessions with directors, attend masterclasses on filmmaking, and network with industry professionals. A festival pass provides access to all screenings and events. It's a cinematic treat for film buffs and aspiring filmmakers, offering a window into global storytelling trends. Full schedule and passes are available on the official BISFF website.",
+    "location": "PVR Orion Mall, Rajajinagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:12:13.567+05:30"
+  },
+  {
+    "content": "Elevate your business acumen with the 'Digital Marketing Mastery' workshop, a comprehensive two-day course on August 16th and 17th, 2025. Held at the 91springboard hub on MG Road, this workshop is tailored for entrepreneurs, marketing professionals, and students. From 9:30 AM to 5:00 PM, industry experts will cover everything from SEO and SEM to social media strategy, content marketing, and analytics. The sessions are practical and hands-on, ensuring participants leave with actionable strategies they can implement immediately. You will learn how to build a powerful online presence, generate leads, and measure ROI effectively. The registration fee includes the course material, a certificate of completion, and lunch. Seats are limited, so secure your spot through their official event page.",
+    "location": "91springboard, MG Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T07:50:40.811+05:30"
+  },
+  {
+    "content": "Join the Startup Grind Bangalore chapter for its monthly fireside chat today, July 26th, 2025, at the Google for Startups Campus in Koramangala. This evening's event, starting at 5:30 PM, features the founder of a successful local SaaS startup who recently secured Series B funding. The conversation will delve into their journey, covering challenges in product-market fit, fundraising strategies, and scaling a team. It's an invaluable opportunity for aspiring entrepreneurs and early-stage startup employees to gain firsthand insights and inspiration. The event format includes an hour of networking followed by the fireside chat and an audience Q&A. Tickets are available online and include snacks and beverages. Come connect with the vibrant startup ecosystem of Bangalore.",
+    "location": "Google for Startups Campus, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:00:05.142+05:30"
+  },
+  {
+    "content": "Push your limits at the Bangalore Midnight Marathon, scheduled for August 30th, 2025. This unique nocturnal running event will flag off from the Kanteerava Stadium at 10:00 PM. Runners can choose from several categories: a full marathon (42.2k), half marathon (21.1k), a 10k run, and a 5k fun run. The route will take participants through some of the city's iconic, well-lit streets, offering a different perspective of Bangalore. The event is not just a race but a festival, with music, food stalls, and a great atmosphere at the stadium. All finishers will receive a medal and a digital certificate. Registration is now open online. It's a fantastic challenge for serious runners and a fun experience for casual joggers and families. Prepare for an exciting race under the stars.",
+    "location": "Kanteerava Stadium, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T21:10:29.635+05:30"
+  },
+  {
+    "content": "The Great Indian Wine Festival is coming to UB City on September 13th and 14th, 2025. This sophisticated event invites you to explore the best of Indian and international wines in a luxurious setting. From 1:00 PM to 10:00 PM, the piazza at UB City will be transformed into a wine lover's paradise. Attendees can sample from over 100 different wines, participate in guided tasting sessions with sommeliers, and attend workshops on wine and food pairing. The festival also features grape stomping, live jazz music, and gourmet food stalls from the city's finest restaurants. It's an elegant weekend affair, perfect for connoisseurs and those curious to learn more about the world of wine. Tickets include a set number of tasting coupons and a souvenir wine glass.",
+    "location": "UB City, Vittal Mallya Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:35:48.789+05:30"
+  },
+  {
+    "content": "Immerse yourself in a day of mindfulness at the 'Be Here Now' meditation workshop on August 4th, 2025. Hosted at the serene Shoonya Centre for Art and Somatic Practices in Malleswaram, this full-day workshop runs from 9:00 AM to 5:00 PM. It is designed to help participants manage stress, improve focus, and cultivate inner peace. The day will include guided sessions on various meditation techniques such as mindfulness of breath, body scan, and loving-kindness meditation. There will also be gentle movement practices and periods of silent reflection. This workshop is suitable for both beginners and experienced meditators. A simple, wholesome vegetarian lunch will be provided. Pre-registration is essential as the group size is kept small to maintain a peaceful and intimate environment.",
+    "location": "Shoonya Centre, Malleswaram, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:40:11.201+05:30"
+  },
+  {
+    "content": "The much-awaited Bangalore Design Festival 2025 kicks off next month, running from August 15th to August 20th. This city-wide celebration of design will take place across multiple venues, with the main hub at the Bangalore International Centre (BIC) in Domlur. The festival features an eclectic mix of exhibitions, workshops, talks, and installations covering product design, graphic design, UI/UX, and architecture. International and Indian design luminaries will share their insights in a series of thought-provoking talks. This is an essential event for design professionals, students, and anyone passionate about creativity and innovation. A full schedule of events, venue details, and registration for specific workshops are available on the festival's official website. Most exhibitions are free to attend, while talks and workshops are ticketed.",
+    "location": "Bangalore International Centre, Domlur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:59:59.999+05:30"
+  },
+  {
+    "content": "Hard Rock Cafe on St. Mark's Road is paying tribute to the legendary band Queen this Saturday, July 27th, 2025. A top city-based cover band will perform iconic hits like 'Bohemian Rhapsody', 'We Will Rock You', and 'Another One Bites the Dust'. The show starts at 9:00 PM, promising a night of powerful vocals, epic guitar solos, and pure rock and roll energy. Fans of Freddie Mercury and Queen are in for a treat. The cafe's classic ambiance, great food, and signature cocktails make it the perfect venue for a musical trip down memory lane. There is a cover charge for the event, which is redeemable against food and beverages. It's advisable to book a table in advance, as these tribute nights are extremely popular.",
+    "location": "Hard Rock Cafe, St. Mark's Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T20:20:20.202+05:30"
+  },
+  {
+    "content": "Jagriti Theatre in Whitefield presents 'A-Broad-Minded,' a hilarious English play about cultural clashes and the Indian immigrant experience. The play will be staged from August 8th to August 10th, 2025, with shows at 8:00 PM on Friday and Saturday, and matinee shows at 3:00 PM on Saturday and Sunday. Written by a promising new playwright, the story follows the comical misadventures of a Bangalore family visiting their son in America. It's a heartwarming and witty take on family dynamics, generation gaps, and the search for belonging. The talented ensemble cast delivers sharp dialogue and engaging performances. This play is a delightful entertainer, perfect for a weekend outing with family and friends. Tickets are available on BookMyShow.",
+    "location": "Jagriti Theatre, Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:44:17.345+05:30"
+  },
+  {
+    "content": "Calling all shutterbugs! Join the Bangalore Photowalk group for a captivating 'KR Market at Dawn' photo walk this Sunday, July 28th, 2025. The walk begins at 6:00 AM from the main entrance of the market. This is a unique opportunity to capture the chaotic beauty and vibrant energy of one of Bangalore's oldest and busiest markets as it comes to life. From colorful flower vendors to the bustling vegetable sections, the photo opportunities are endless. The walk is suitable for photographers of all skill levels, using anything from a DSLR to a smartphone camera. An experienced photographer will lead the group, offering tips on composition and street photography ethics. The event is free to join. Just register on their social media page.",
+    "location": "KR Market, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T04:30:15.118+05:30"
+  },
+  {
+    "content": "Dive into the world of electronic music production with a 'Beginner's Guide to Ableton Live' workshop. This one-day intensive course is scheduled for August 3rd, 2025, at a professional music studio in Indiranagar. The workshop runs from 11:00 AM to 6:00 PM. Led by a certified trainer and music producer, the session will cover the fundamentals of the Ableton Live interface, MIDI programming, audio recording, and using built-in effects. Participants will learn to create their first track from scratch. No prior music production experience is necessary, but you are required to bring your own laptop with Ableton Live pre-installed (a trial version is sufficient). It's the perfect starting point for anyone aspiring to be a music producer or DJ. Register online to secure your limited spot.",
+    "location": "Music Studio, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T13:45:50.601+05:30"
+  },
+  {
+    "content": "Sarees and Stories is hosting a unique 'Kalamkari Painting Workshop' on August 10th, 2025, at their boutique studio in Jayanagar. From 10:30 AM to 1:30 PM, participants will be introduced to the ancient Indian art of Kalamkari. An expert artisan will guide you through the history of the craft and the traditional process of using natural dyes and a 'kalam' (bamboo pen) to create intricate motifs on fabric. You will get to practice the techniques and create your own Kalamkari artwork to take home. All materials, including the fabric, pens, and natural dyes, will be provided. This workshop is a wonderful way to connect with traditional Indian art forms and unleash your creativity. It's suitable for all ages and requires no prior artistic experience. Book your slot via their Instagram page.",
+    "location": "Jayanagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:18:12.431+05:30"
+
+  },
+  {
+    "content": "The much-anticipated 'Bangalore Comic Con 2025' is returning to the city this winter. The ultimate pop culture event will take place on December 6th and 7th, 2025, at the KTPO Convention Centre in Whitefield. Fans can look forward to a massive celebration of comics, movies, gaming, and cosplay. The event will feature international and Indian comic book artists, celebrity guests from the world of entertainment, and exclusive merchandise. Highlights include cosplay competitions with huge prizes, gaming tournaments, fan meet-ups, and panel discussions on the latest trends in pop culture. It is an immersive experience for enthusiasts of all ages. Super Fan tickets, which offer early access and goodies, are already on sale. Single-day and weekend passes will be available soon. Don't miss the biggest geek-out of the year!",
+    "location": "KTPO Convention Centre, Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:59:01.888+05:30"
+  },
+  {
+    "content": "Master the art of public speaking at a two-day intensive workshop, 'Speak with Confidence', on August 2nd and 3rd, 2025. This workshop will be conducted at a premier business hotel in Koramangala from 9:00 AM to 5:00 PM on both days. Led by a certified corporate trainer, the program is designed for professionals, entrepreneurs, and students who want to overcome stage fright and deliver impactful presentations. The curriculum covers everything from structuring a speech and using body language effectively to handling Q&A sessions and using visual aids. Participants will get multiple opportunities to practice in front of a supportive audience and receive personalized video feedback. This is a transformative experience that will boost your confidence and communication skills. Registration is now open online.",
+    "location": "Business Hotel, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:12:34.567+05:30"
+  },
+  {
+    "content": "The Atta Galatta Book Club is meeting this Saturday, July 27th, 2025, at 5:00 PM at their bookstore in Koramangala. This month's discussion will revolve around the critically acclaimed novel 'The Covenant of Water' by Abraham Verghese. It's a great opportunity for book lovers to share their perspectives, delve into the themes of the novel, and engage in a stimulating literary conversation. The discussion will be moderated to ensure a lively and inclusive atmosphere. Whether you've finished the book or are just halfway through, you're welcome to join. The event is free of charge. You can also enjoy a cup of coffee and browse the wonderful collection of books at the store. Come and connect with fellow bibliophiles in a cozy and welcoming environment.",
+    "location": "Atta Galatta, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:15:45.129+05:30"
+  },
+  {
+    "content": "Experience a day of deep relaxation and healing at the 'Sound Bath and Gong Meditation' session. This unique wellness event is scheduled for Sunday, August 4th, 2025, from 4:00 PM to 5:30 PM at a serene wellness studio in Indiranagar. A certified sound healer will use a variety of instruments including Himalayan singing bowls, gongs, and chimes to create a rich soundscape. Participants simply lie down and allow the therapeutic vibrations to wash over them, helping to release stress, calm the nervous system, and promote a state of deep meditation. No prior experience with meditation is needed. Please bring a yoga mat, a blanket, and a small pillow for your comfort. Spaces are limited to ensure an intimate experience, so advance booking is highly recommended.",
+    "location": "Wellness Studio, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T07:07:07.777+05:30"
+  },
+  {
+    "content": "The Web3 & Decentralization Summit is a forward-thinking conference scheduled for September 20th, 2025, at the BIEC. This full-day event is dedicated to exploring the future of the internet, covering everything from blockchain technology and DeFi to NFTs and the metaverse. The summit will bring together leading developers, investors, and thought leaders in the Web3 space for a series of keynotes, technical workshops, and debates. Topics on the agenda include DAO governance, interoperability challenges, and real-world applications of decentralized technology. It's a crucial event for anyone looking to understand the next wave of technological innovation and its potential impact on business and society. Super early bird tickets are now on sale on the event's official website, offering the best price for attendees.",
+    "location": "BIEC, Tumkur Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:09:09.909+05:30"
+  },
+  {
+    "content": "The Bangalore School of Music in RT Nagar is hosting a 'Western Classical Music Appreciation' evening on August 1st, 2025, at 6:30 PM. This session is part of their ongoing outreach program to make classical music more accessible to the public. A faculty member will guide the audience through the works of a famous composer, explaining the historical context, musical structures, and emotional nuances. The evening will feature live performances of selected pieces by talented students and faculty. It’s an educational and enjoyable experience for both seasoned listeners and newcomers to the genre. The event is free and open to all, making it a wonderful cultural outing for the entire family. Seating is on a first-come, first-served basis, so arriving a little early is advisable.",
+    "location": "Bangalore School of Music, RT Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T18:18:18.181+05:30"
+  },
+  {
+    "content": "Get your weekly dose of fresh produce and artisanal goods at the Whitefield Farmer's Market. Held every Sunday from 9:00 AM to 2:00 PM at the courtyard of a local community center, this market is a hub for conscious consumers. You can buy directly from farmers offering a range of organic vegetables, seasonal fruits, and free-range eggs. Additionally, local artisans sell homemade bread, preserves, cheese, and natural skincare products. The market has a friendly and relaxed atmosphere, making it a pleasant weekend shopping experience. It's a great way to support local and sustainable businesses while ensuring you get high-quality, fresh products for your family. Don't forget to carry your own bags to help keep the event eco-friendly. The next market is on July 28th, 2025.",
+    "location": "Community Center, Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:44:41.441+05:30"
+  },
+  {
+    "content": "Learn the essentials of financial planning at a free seminar titled 'Secure Your Future', happening on July 27th, 2025. The session will be held at The Taj MG Road from 10:00 AM to 1:00 PM. Hosted by a leading financial advisory firm, this seminar is aimed at young professionals and families. A certified financial planner will cover crucial topics like budgeting, the power of compounding, mutual fund investments (SIPs), tax-saving strategies, and retirement planning. The goal is to demystify financial jargon and provide a clear roadmap for achieving long-term financial goals. The seminar will be followed by a high tea and an opportunity to have a one-on-one consultation with the experts. Registration is free but mandatory as seats are limited. Sign up online.",
+    "location": "The Taj MG Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:08:08.808+05:30"
+  },
+  {
+    "content": "The electrifying 'Techno Takedown' night is back at Kitty Ko, located at The Lalit Ashok. This Saturday, July 27th, 2025, the console will be taken over by the legendary DJ Arjun Vagale. Known for his intense and driving techno sets, Vagale promises to take the dance floor on an unforgettable sonic journey. The event starts at 10:00 PM and goes on till the early hours. With its stunning rooftop location offering panoramic views of the city and a state-of-the-art sound system, Kitty Ko is the perfect venue for this high-octane event. This is a must-attend for all techno lovers in the city. Entry is via a cover charge, and a strict dress code applies. It is advisable to get on the guest list for couple and women entries.",
+    "location": "Kitty Ko, The Lalit Ashok, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T22:22:22.222+05:30"
+  },
+  {
+    "content": "Join an exciting 'Introduction to Rock Climbing' session at Equilibrium Climbing Station in Indiranagar this Sunday, July 28th, 2025. The three-hour session, starting at 9:00 AM, is perfect for beginners who want to try this thrilling sport in a safe and controlled environment. Certified instructors will teach you the basics of climbing techniques, safety protocols, and how to use the equipment. The session includes bouldering (climbing shorter walls without ropes) and top-rope climbing. It’s a fantastic full-body workout that also challenges your problem-solving skills. All necessary equipment like climbing shoes and harnesses will be provided. The fee for the introductory session is inclusive of equipment rental and instruction. Book your slot on their website as they take small batches only.",
+    "location": "Equilibrium Climbing Station, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:06:06.606+05:30"
+  },
+  {
+    "content": "Alliance Française de Bangalore is screening the acclaimed French film 'La Haine' (Hate) with English subtitles on July 30th, 2025, at 7:00 PM. The screening will be held at their auditorium in Vasanth Nagar. Directed by Mathieu Kassovitz, this powerful black-and-white film explores 24 hours in the lives of three young friends in the impoverished suburbs of Paris, tackling themes of social unrest, poverty, and police brutality. The film is a cinematic masterpiece and remains incredibly relevant today. The screening will be followed by a brief, moderated discussion about its impact and themes. This is a great opportunity for cinephiles to watch a classic of world cinema on the big screen. The event is free and open to all. Seating is limited and available on a first-come basis.",
+    "location": "Alliance Française, Vasanth Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:17:17.171+05:30"
+  },
+  {
+    "content": "Sharpen your leadership skills with the 'Leadership for New Managers' workshop, a two-day program scheduled for August 22nd and 23rd, 2025. This intensive training will be held at the Taj West End, Bangalore. Designed for individuals who are new to a management role or aspiring to become one, the workshop covers essential skills like effective communication, delegation, conflict resolution, motivating a team, and performance management. The program, running from 9:30 AM to 5:30 PM, uses a mix of presentations, case studies, role-playing, and group discussions to ensure an engaging learning experience. It is facilitated by a seasoned leadership coach with extensive corporate experience. The registration fee covers all course materials, certification, lunch, and refreshments. Register early to avail of a corporate discount.",
+    "location": "Taj West End, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:48:48.484+05:30"
+  },
+  {
+    "content": "The 'Lalbagh Flower Show' for Independence Day 2025 is set to be a spectacular event, running from August 9th to August 18th. Held at the iconic Glass House within the Lalbagh Botanical Garden, this biannual show attracts lakhs of visitors. This year's theme will pay tribute to a historical figure of Karnataka, with magnificent floral statues and arrangements. Visitors can marvel at thousands of varieties of flowers, participate in gardening competitions, and buy plants and gardening supplies from various stalls. The show is open from 9:00 AM to 7:00 PM daily. It is a visual treat for people of all ages and a fantastic opportunity for photography enthusiasts. Tickets are available at the entrance gates of Lalbagh. Expect large crowds, especially on weekends and the public holiday.",
+    "location": "Lalbagh Botanical Garden, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:31:13.131+05:30"
+  },
+  {
+    "content": "Explore the world of craft beer with an exclusive 'Brewery Tour and Tasting' session at Toit in Indiranagar. This event is happening today, July 26th, 2025, at 4:00 PM. The head brewer will take a small group on a behind-the-scenes tour of their microbrewery, explaining the entire brewing process from raw materials to the final product. You will learn about the different types of malts, hops, and yeasts that create their signature beers. The tour concludes with a guided tasting of six of their popular brews, including their seasonal special. It's a fun and educational experience for beer enthusiasts and anyone curious about the craft. The session lasts about 90 minutes. Slots are very limited, and booking in advance through their website is essential. The fee includes the tour and the tasting flight.",
+    "location": "Toit, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T13:31:31.313+05:30"
+  },
+  {
+    "content": "The city's wordsmiths are gathering for 'Mic-Drop', a poetry slam and open mic night at The Courtyard community space in Shanti Nagar. The event is scheduled for this evening, July 26th, 2025, starting at 7:00 PM. It provides a platform for both seasoned poets and first-timers to share their original work in a supportive and appreciative environment. The evening will feature a competitive slam segment with prizes for the winners, followed by a more relaxed open mic session. The theme for the slam is 'City Lights'. If you wish to perform, you can sign up at the venue from 6:30 PM. For those who just want to listen, it promises an evening of powerful words, raw emotions, and creative expression. There is a small entry fee for all attendees.",
+    "location": "The Courtyard, Shanti Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:56:56.565+05:30"
+  },
+  {
+    "content": "Join the 'Cycling for a Cause' community ride this Sunday, July 28th, 2025, to support environmental awareness. The ride will start at 6:30 AM from the steps of Vidhana Soudha and follow a scenic 20km route through Cubbon Park and surrounding areas, concluding at the same point. This event is organized by a local NGO to promote cycling as a sustainable mode of transport and to raise funds for a tree plantation drive. The ride is open to everyone, and participants are encouraged to wear green. While the ride is free, you can contribute to the cause by purchasing a sapling at the finish line. A support vehicle and basic first-aid will be available. It's a great way to stay fit, meet like-minded people, and contribute to a greener Bangalore.",
+    "location": "Vidhana Soudha, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T05:05:05.505+05:30"
+  },
+  {
+    "content": "Arijit Singh, the voice that has captured millions of hearts, is coming to Bangalore for a massive live concert. The event is scheduled for December 20th, 2025, at the sprawling Palace Grounds. Fans can expect an unforgettable evening as the singing sensation performs his chart-topping romantic ballads, soulful melodies, and peppy numbers. The concert is expected to be a grand affair with state-of-the-art sound and lighting. Gates will open at 4:00 PM, with the performance starting at 7:00 PM. This is one of the most awaited musical events of the year, and tickets are expected to be in high demand. Phase 1 of ticket sales will go live next month on major online platforms. Mark your calendars for a magical night of music with the king of playback singing.",
+    "location": "Palace Grounds, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T19:39:39.393+05:30"
+  },
+  {
+    "content": "Learn the art of authentic Italian cooking with a hands-on 'Pasta from Scratch' workshop. This culinary class is happening tomorrow, July 27th, 2025, at a boutique culinary studio in JP Nagar from 11:00 AM to 2:00 PM. Renowned chef Isabella Rossi will guide you through the process of making fresh pasta dough, and then shaping it into different types like fettuccine and ravioli. You will also learn to prepare two classic pasta sauces from scratch using fresh, high-quality ingredients. At the end of the session, you get to sit down and enjoy the delicious pasta meal you've prepared. This class is perfect for home cooks who want to elevate their skills. All ingredients and equipment are provided. The class size is small, so book your spot quickly.",
+    "location": "Culinary Studio, JP Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:33:30.333+05:30"
+  },
+  {
+    "content": "Embark on a journey of self-discovery with a 10-day Vipassana meditation course at 'Dhamma Paphulla', the Art of Living International Center on Kanakapura Road. The next course for new students begins on August 15th, 2025. This residential course teaches a meditation technique that helps to see things as they really are. Participants observe noble silence for the entire duration, following a disciplined daily schedule of meditation from 4:30 AM to 9:00 PM. The technique is taught through recorded instructions by S.N. Goenka. The courses are run solely on a donation basis, with food and accommodation provided. It is a profound and challenging experience aimed at purifying the mind. Applications must be submitted well in advance through the official Dhamma website as courses fill up quickly.",
+    "location": "Art of Living International Center, Kanakapura Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:26:26.262+05:30"
+  },
+  {
+    "content": "A seminar on 'Angel Investing 101: Funding the Future' is being held today, July 26th, 2025, at The Leela Palace. This exclusive event, from 3:00 PM to 6:00 PM, is designed for high-net-worth individuals, seasoned professionals, and family offices interested in early-stage startup investing. A panel of successful angel investors and venture capitalists will share their insights on deal sourcing, due diligence, valuation, and portfolio management. They will also discuss the risks and rewards associated with angel investing. The seminar aims to equip potential investors with the knowledge and network to make informed investment decisions in Bangalore's thriving startup ecosystem. The session will be followed by a networking cocktail hour. Attendance is by invitation or prior registration, which can be done on the organizer's website.",
+    "location": "The Leela Palace, Old Airport Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:14:14.414+05:30"
+  },
+  {
+    "content": "Engage in a cultural exchange at the 'Japanese-English Language Meetup' tonight, July 26th, 2025. This weekly event takes place from 6:00 PM to 8:00 PM at a cozy cafe on Church Street. It brings together native Japanese speakers and English speakers who are learning Japanese. The format is casual and friendly, with participants switching between languages to help each other practice and improve their conversational skills. It's a fantastic way to learn a new language, understand a different culture, and make new friends from around the world. The meetup is open to all proficiency levels, from absolute beginners to advanced speakers. There is no fee to attend the meetup, but participants are requested to buy a drink or snack from the cafe to support the venue.",
+    "location": "Cafe, Church Street, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:47:47.474+05:30"
+  },
+  {
+    "content": "The 'Quantum Computing Primer' is a one-day workshop for tech professionals and researchers, scheduled for August 9th, 2025. It will be held at the esteemed Indian Institute of Science (IISc) campus. From 9:00 AM to 5:00 PM, leading professors and researchers from the quantum technology department will introduce the fundamental concepts of quantum mechanics, qubits, superposition, and entanglement. The workshop will also provide an overview of quantum algorithms like Shor's and Grover's and discuss the potential applications of quantum computing in various fields. The sessions will be theoretical but designed for an audience with a strong background in computer science or physics. This is a unique opportunity to get a head start on a revolutionary technology. Registration is mandatory and can be done through the IISc website.",
+    "location": "Indian Institute of Science (IISc), Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:29:29.292+05:30"
+  },
+  {
+    "content": "The Bangalore Wine Club is hosting an exclusive 'Old World vs. New World' wine tasting event on August 16th, 2025. The event will be held at the elegant Olive Beach restaurant in Ashok Nagar from 7:00 PM onwards. A certified sommelier will lead a curated tasting of six exquisite wines – three from classic European regions (Old World) and three from regions like California, Australia, and Chile (New World). Participants will learn to identify the distinct characteristics, aromas, and flavors that define each style. The wines will be paired with a selection of artisanal cheeses and gourmet appetizers. It’s an educational and indulgent evening for both novice and experienced wine lovers. The event is open to members and their guests. Pre-booking is essential as seats are highly limited.",
+    "location": "Olive Beach, Ashok Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T18:38:38.383+05:30"
+  },
+  {
+    "content": "Get ready for a 'Board Games Bonanza' tonight at the Victory Point Cafe in Jayanagar. Starting at 7:00 PM, this event is a haven for board game enthusiasts. The cafe has a massive library of over 300 games, from classic strategy games like Catan and Ticket to Ride to fun party games like Codenames and Cards Against Humanity. Game gurus will be on hand to help you choose a game and explain the rules. It's a great social event to meet new people, challenge your friends, and have a fun, screen-free evening. You can come alone and join a group, or bring your own gang. There's a per-hour charge for playing, and the cafe serves a variety of snacks and beverages to keep you fueled for the competition.",
+    "location": "Victory Point Cafe, Jayanagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T18:08:18.818+05:30"
+  },
+  {
+    "content": "The 'Future of FinTech' forum will take place at the ITC Gardenia on August 12th, 2025. This high-profile event, starting at 10:00 AM, will bring together bankers, fintech entrepreneurs, regulators, and investors to discuss the evolving landscape of financial services. The agenda includes panel discussions on topics such as digital payments, neo-banking, the impact of AI in lending, and the future of blockchain in finance. The keynote address will be delivered by a senior official from the Reserve Bank of India. It's an essential event for anyone in the financial services or technology sector to gain insights into emerging trends, regulatory changes, and opportunities for innovation. The forum provides excellent networking opportunities with industry stalwarts. Registration is open online for professionals.",
+    "location": "ITC Gardenia, Residency Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:59:59.595+05:30"
+  },
+  {
+    "content": "Experience a unique blend of fitness and fun with a 'Bollywood Dance Fitness' class. These high-energy sessions are held every Saturday morning at 10:00 AM at a dance studio in Koramangala. The one-hour class is a full-body cardio workout set to the latest and greatest Bollywood tracks. An experienced instructor will guide you through easy-to-follow dance moves, making it suitable for all fitness levels and ages. No prior dance experience is needed. It’s a great way to burn calories, improve coordination, and de-stress in a lively and joyful atmosphere. The next class is on July 27th, 2025. You can opt for a drop-in class or sign up for a monthly package. Just wear comfortable workout clothes and get ready to dance your heart out.",
+    "location": "Dance Studio, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:56:56.656+05:30"
+  },
+  {
+    "content": "The Indian Music Experience Museum (IME) at JP Nagar is hosting a special weekend event, 'Rhythm and Roots', on August 3rd and 4th, 2025. This event celebrates the diversity of Indian folk music traditions. Saturday will feature a performance of Rajasthani folk music by a renowned troupe, while Sunday will showcase the energetic beats of Punjabi dhol and folk songs. The performances will be held in the museum's outdoor amphitheater at 6:00 PM. During the day, visitors can also attend workshops on folk instruments and explore the interactive exhibits of the museum. It is a wonderful opportunity for families to connect with the rich musical heritage of India. Tickets for the evening performances can be booked online, and museum entry tickets are separate.",
+    "location": "Indian Music Experience Museum, JP Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:07:17.717+05:30"
+  },
+  {
+    "content": "A 'Terracotta Jewellery Making' workshop is being organized at a creative space in Malleswaram this Sunday, July 28th, 2025. The three-hour session, from 2:00 PM to 5:00 PM, offers a chance to learn the beautiful art of crafting jewellery from baked earth. An experienced artisan will teach you the entire process, starting from preparing the clay, shaping it into beads and pendants, designing patterns, and finally, the technique of baking and painting them. You will get to create your own unique set of earrings and a necklace to take home. All the necessary materials, including the clay and tools, will be provided. This workshop is a therapeutic and creative experience, perfect for anyone interested in handcrafted jewellery and traditional crafts. Book your spot in advance to avoid disappointment.",
+    "location": "Creative Space, Malleswaram, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:12:12.212+05:30"
+  },
+  {
+    "content": "The Bangalore Astronomical Society is hosting a 'Stargazing Night' this Saturday, July 27th, 2025, at a location on the outskirts of the city, away from the light pollution. The event begins at 7:00 PM. Members of the society will set up several high-powered telescopes, allowing participants to observe celestial objects like the Moon's craters, Jupiter's moons, Saturn's rings, and various star clusters and nebulae. There will also be a guided session on identifying constellations and stars with the naked eye. It’s a fascinating and educational experience for all ages, especially for kids and science enthusiasts. Participants are advised to bring warm clothing, a mat to sit on, and a flask of hot beverage. The exact location coordinates will be shared with registered participants. A small fee is collected to cover logistics.",
+    "location": "Outskirts of Bangalore, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T19:19:19.919+05:30"
+  },
+  {
+    "content": "The 'Bangalore Open Air' metal festival, a staple for headbangers, has announced its 2026 edition. The festival is slated for February 14th, 2026, and is expected to return to its previous home at the Aaduri Farm on the outskirts of Bangalore. This edition promises a stellar lineup of international and Indian metal bands, spanning genres from heavy metal and thrash to death and black metal. While the full lineup is yet to be announced, organizers have teased a major international headliner. It's a full-day event of pure, unadulterated metal, with multiple bands, merchandise stalls, and food and beverage counters. Super early bird tickets, offering the best value, will go on sale in the coming months. Metalheads across the country are already marking their calendars for this pilgrimage.",
+    "location": "Aaduri Farm, Outskirts of Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T23:23:23.323+05:30"
+  },
+  {
+    "content": "Unlock the power of data with 'Python for Data Analysis', a weekend workshop on August 10th and 11th, 2025. This hands-on course will be held at a tech training center in Marathahalli from 10:00 AM to 5:00 PM. It is designed for beginners and professionals who want to learn how to use Python libraries like NumPy, Pandas, and Matplotlib for data manipulation, analysis, and visualization. The instructor will guide participants through real-world datasets, teaching them how to clean data, perform statistical analysis, and create insightful plots. Participants are required to have a basic understanding of Python programming and bring their own laptops with Anaconda installed. This workshop is a great step towards a career in data science. Register online to book your seat.",
+    "location": "Tech Training Center, Marathahalli, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:39:39.939+05:30"
+  },
+  {
+    "content": "Dive into the world of mixology with a 'Cocktail Making Workshop' at the trendy Sly Granny pub in Indiranagar. This fun and interactive session is scheduled for tomorrow, July 27th, 2025, at 5:00 PM. The resident mixologist will teach you the art and science behind creating classic cocktails like Mojitos, Margaritas, and a few of their signature creations. You will learn about different types of spirits, balancing flavors, and the essential techniques of shaking, stirring, and garnishing. You'll get to make and drink your own cocktails under expert guidance. It’s a perfect activity for a Saturday evening with friends or even as a unique date idea. The workshop fee includes all ingredients and three cocktails. Spaces are limited, so book your spot through their social media page.",
+    "location": "Sly Granny, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:15:15.515+05:30"
+  },
+  {
+    "content": "The 'Bangalore Storytelling Society' is hosting its monthly gathering this Sunday, July 28th, 2025, at Cubbon Park. The event takes place near the central library from 4:00 PM to 6:00 PM. The theme for this month is 'Tales of Travel and Adventure'. It's an open platform for anyone to come and share a true story, a folktale, or a fictional narrative. The atmosphere is informal, supportive, and all about the joy of sharing and listening to stories. It's a wonderful way to spend a Sunday afternoon, connecting with people through the timeless art of storytelling amidst nature. The event is free and open to all ages. You can choose to be a storyteller or just a listener. Just bring a mat or a sheet to sit on and enjoy the stories.",
+    "location": "Cubbon Park, near Central Library, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:36:36.636+05:30"
+  },
+  {
+    "content": "Unwind and rejuvenate with a 'Weekend Yoga Retreat' at the Shreyas Yoga Retreat near Nelamangala. The next retreat is scheduled from Friday, August 16th to Sunday, August 18th, 2025. This all-inclusive package offers a complete escape from the city's hustle. The retreat includes multiple yoga sessions (Ashtanga and Hatha), guided meditation, pranayama classes, and a workshop on yogic philosophy. Guests will be served delicious and healthy vegetarian cuisine. The retreat center is a beautiful, serene property with luxurious accommodations and amenities like a swimming pool and spa. It's an opportunity to deepen your practice, detoxify your body and mind, and return to your life feeling refreshed and centered. Bookings can be made directly through the Shreyas Retreat website. Early booking is recommended.",
+    "location": "Shreyas Yoga Retreat, Nelamangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T07:27:27.727+05:30"
+  },
+  {
+    "content": "Explore the vibrant street art of Bangalore with a guided 'Art Walk' through the lanes of Malleswaram. This walk is happening on Sunday, August 4th, 2025, starting at 8:00 AM. The walk will be led by an art historian who will take you to see the various murals and graffiti that adorn the walls of this old Bangalore neighborhood. You will learn about the artists, the stories behind the artworks, and the broader context of the street art movement in the city. The walk is about 2 hours long and covers a distance of approximately 3 kilometers. It’s a great way to discover a different side of the city and appreciate the creativity of its artists. The walk is a ticketed event, and the fee goes towards supporting local art projects.",
+    "location": "Malleswaram, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T05:35:35.535+05:30"
+  },
+  {
+    "content": "The 'Agile and Scrum Fundamentals' certification workshop is a two-day course for IT professionals, project managers, and team leads. It will be held on August 9th and 10th, 2025, at a training facility in HSR Layout. The workshop provides a thorough understanding of the Agile mindset and the Scrum framework. Participants will learn about Scrum roles (Product Owner, Scrum Master, Development Team), events (Sprint, Daily Scrum, Sprint Review), and artifacts (Product Backlog, Sprint Backlog). The training is highly interactive, using exercises and real-world case studies. At the end of the course, participants will be prepared to take an internationally recognized certification exam. The course fee includes the training, course material, lunch, and the certification exam fee. Register online to empower your team with Agile practices.",
+    "location": "Training Facility, HSR Layout, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:58:58.858+05:30"
+  },
+  {
+    "content": "The 'Indie Music Showcase' at The Humming Tree in Indiranagar is a weekly event promoting emerging independent musicians. This week's showcase is tonight, July 26th, 2025, at 8:30 PM. The lineup features a singer-songwriter with soulful acoustic melodies and an alternative rock band with a fresh sound. The Humming Tree is known for its commitment to live music and provides a great platform for new artists to reach a wider audience. It's an opportunity for music lovers to discover their next favorite band and support the local music scene. The venue has a great ambiance with a rooftop seating area. There is an entry fee for the event, which goes towards supporting the artists. Come and enjoy a night of original music.",
+    "location": "The Humming Tree, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T20:40:40.404+05:30"
+  },
+  {
+    "content": "Discover the art of 'Macrame and Plant Hangers' in a creative workshop this Sunday, July 28th, 2025. Hosted at a quaint cafe in Koramangala, the session runs from 11:00 AM to 2:00 PM. An experienced macrame artist will teach you the basic knots and patterns needed to create your own beautiful and functional plant hanger. This therapeutic craft is a great way to add a touch of bohemian decor to your home. All materials, including the cotton cord and a pot for your hanger, will be provided. You will leave the workshop with a finished plant hanger and the skills to continue exploring macrame on your own. The workshop is suitable for absolute beginners. The fee also includes a complimentary beverage from the cafe. Book your spot online.",
+    "location": "Cafe, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:11:11.111+05:30"
+  },
+  {
+    "content": "The 'Bangalore Business Conclave 2025' is a premier event for entrepreneurs and business leaders, scheduled for September 12th, 2025. The full-day conclave will be held at the Conrad Bengaluru. The theme for this year is 'Innovate, Disrupt, and Scale in the New Economy'. The event will feature keynote addresses from industry tycoons, insightful panel discussions on topics like AI in business and sustainable growth, and multiple networking sessions. It provides a platform for business owners to connect with potential investors, partners, and clients. There will also be a startup showcase where selected early-stage companies can pitch to a panel of venture capitalists. Delegate passes are available online, with special rates for startups and students. It is a must-attend event for anyone in the business community.",
+    "location": "Conrad Bengaluru, Ulsoor, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:19:19.191+05:30"
+  },
+  {
+    "content": "A 'HIIT Bootcamp Challenge' is currently running at a fitness center in HSR Layout. This is a 4-week high-intensity interval training program designed to maximize fat loss and improve cardiovascular fitness. The sessions are held every weekday morning at 7:00 AM. Each session is a 45-minute blast of intense exercises followed by short recovery periods, ensuring you get a great workout in a short time. The program is led by certified fitness trainers who will motivate you and ensure you maintain proper form. It's a challenging but rewarding program for those serious about their fitness goals. The current batch started this week, and limited spots are available for late joiners. You can also sign up for the next batch starting in August. Contact the fitness center for details.",
+    "location": "Fitness Center, HSR Layout, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:16:16.616+05:30"
+  },
+  {
+    "content": "The 'Bangalore Literature Festival' has announced its dates for 2025. The city's largest literary event will take place on December 13th and 14th, 2025, at its traditional home, the Lalit Ashok. The festival will host a galaxy of acclaimed authors, poets, journalists, and thinkers from India and abroad. The two-day event will be packed with engaging panel discussions, book launches, author signing sessions, and workshops. There will be dedicated sessions for children's literature as well. The festival is a vibrant celebration of books, ideas, and conversations. It attracts thousands of literature enthusiasts from all walks of life. Entry to the festival is free and open to all, making it one of the most accessible and popular cultural events in the city. The detailed schedule and list of speakers will be released closer to the date.",
+    "location": "The Lalit Ashok, Kumara Krupa Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:51:51.515+05:30"
+  },
+  {
+    "content": "Get your weekly dose of fresh air and exercise with the 'Lalbagh Walkers Group'. This community group meets every Saturday morning at 7:00 AM at the West Gate of Lalbagh. The walk is a brisk 5-kilometer route through the beautiful botanical garden, lasting about an hour. It's a diverse group of people of all ages and fitness levels, brought together by a common interest in staying active and enjoying nature. It's a great way to start your weekend, get your steps in, and socialize with friendly people. The walk is informal and free for anyone to join. There's no registration required. Just show up in your walking shoes and a positive attitude. The next walk is tomorrow, July 27th, 2025. It's a simple and effective way to maintain a healthy lifestyle.",
+    "location": "Lalbagh Botanical Garden, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T04:44:44.444+05:30"
+  },
+  {
+    "content": "A special 'Monsoon Ragas' concert is being held at the Bangalore Gayana Samaja, one of the oldest cultural organizations in the city. The concert is on Sunday, August 3rd, 2025, at 6:00 PM. It will feature a renowned Hindustani classical vocalist who will present a selection of ragas associated with the monsoon season, like Malhar and Megh. The evocative melodies are meant to capture the mood and beauty of the rains. The artist will be accompanied by talented musicians on the harmonium and tabla. It promises to be a deeply moving and meditative musical experience for connoisseurs of classical music. The Bangalore Gayana Samaja in Basavanagudi provides an authentic and traditional setting for such a concert. Tickets are available at the venue and are nominally priced to encourage attendance.",
+    "location": "Bangalore Gayana Samaja, Basavanagudi, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T18:58:58.858+05:30"
+  },
+  {
+    "content": "Improve your coding skills with a 'Data Structures and Algorithms Bootcamp'. This intensive 4-week, weekend-only bootcamp starts on August 2nd, 2025. Classes will be held every Saturday and Sunday from 10:00 AM to 2:00 PM at a coding institute in Koramangala. The bootcamp is designed for software engineering students and professionals who want to strengthen their foundations and prepare for technical interviews at top tech companies. The curriculum covers all important topics, including arrays, linked lists, stacks, queues, trees, graphs, and dynamic programming, with a focus on problem-solving. The classes are taught by experienced software engineers from major tech firms. Enrollment is now open, and you can register for the bootcamp through their website. An early bird discount is available for the first few registrations.",
+    "location": "Coding Institute, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:49:49.494+05:30"
+  },
+  {
+    "content": "The 'Maker Faire Bangalore 2025', a celebration of invention, creativity, and resourcefulness, is scheduled for October 11th and 12th, 2025. The event will be held at the Visvesvaraya Industrial & Technological Museum. It's a family-friendly festival that brings together tech enthusiasts, crafters, educators, hobbyists, engineers, and artists. The faire will showcase a wide variety of amazing projects, from robotics and 3D printing to woodworking and electronics. Visitors can interact with the makers, attend hands-on workshops, and witness fascinating demonstrations. It's an inspiring event that encourages a 'do-it-yourself' mindset and a passion for learning and innovation. A call for makers to exhibit their projects will be announced soon. Tickets for visitors will be available online and at the museum entrance. Don't miss this showcase of creativity!",
+    "location": "Visvesvaraya Industrial & Technological Museum, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:40:10.410+05:30"
+  },
+  {
+    "content": "Embark on a culinary journey through the 'Streets of Old Delhi' at a special food festival. This festival is being held at the JW Marriott hotel in Vittal Mallya Road from August 1st to August 10th, 2025. The hotel's all-day dining restaurant will be transformed to replicate the bustling food lanes of Chandni Chowk. Chefs specially flown in from Delhi will be preparing authentic and iconic dishes like parathas from Parathewali Gali, spicy chaats, succulent kebabs, and rich Mughlai curries. The festival is available for both lunch and dinner buffet. It's a fantastic opportunity for food lovers in Bangalore to savor the legendary flavors of Delhi's street food in a luxurious five-star setting. Reservations are highly recommended, especially for weekends. Call the hotel's dining desk to book your table.",
+    "location": "JW Marriott, Vittal Mallya Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:52:52.252+05:30"
+  },
+  {
+    "content": "A 'Contemporary Dance Showcase' titled 'Urban Echoes' will be presented at the Jagriti Theatre in Whitefield on August 16th, 2025. The 75-minute performance, starting at 7:30 PM, is a collaborative work by a leading Bangalore-based dance company. The piece explores the rhythms, chaos, and connections of modern city life through powerful and evocative choreography. The dancers use their bodies to tell stories of isolation and community, speed and stillness, against a backdrop of an original electronic music score and multimedia projections. It is a visually stunning and thought-provoking performance that pushes the boundaries of contemporary dance. This showcase is a must-see for lovers of dance and performance art. Tickets for the single show are available online and are expected to sell out quickly. Book now to witness this unique artistic expression.",
+    "location": "Jagriti Theatre, Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:27:27.727+05:30"
+  },
+  {
+    "content": "Join the 'Product Management Essentials' workshop, a two-day deep dive into the world of building successful products. This workshop is scheduled for August 23rd and 24th, 2025, and will be hosted at a co-working space in Indiranagar. Led by a seasoned product leader from a top tech company, the workshop is designed for aspiring product managers, engineers, and designers. The curriculum covers the entire product lifecycle, from ideation and user research to creating roadmaps, writing PRDs, and working with engineering teams. The sessions will be interactive, featuring case studies from well-known products and hands-on exercises. Participants will gain a solid understanding of the PM role and a framework for making product decisions. Registration is open online, and limited seats are available to ensure a quality learning experience.",
+    "location": "Co-working Space, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:28:28.828+05:30"
+  },
+  {
+    "content": "The 'Bangalore Chess Club' hosts its weekly tournament every Sunday at their club in Basavanagudi. The next tournament is on July 28th, 2025, starting at 10:00 AM. It is an open tournament, welcoming players of all ages and skill levels, from beginners to FIDE-rated players. The tournament follows a Swiss league format, ensuring that all participants get to play several rounds. It's a great opportunity for chess enthusiasts to test their skills, learn from experienced players, and enjoy a day of intellectual sport. There is a small entry fee to cover the operational costs. Prizes are awarded to the top finishers in different categories. You can register at the venue on the day of the tournament. Just bring your passion for the game.",
+    "location": "Bangalore Chess Club, Basavanagudi, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:35:35.353+05:30"
+  },
+  {
+    "content": "Prepare for a night of soulful blues and rock with the 'Chronic Blues Circus', one of Bangalore's oldest and most beloved bands. They are performing live at BFlat Bar in Indiranagar tonight, July 26th, 2025. The gig starts at 9:00 PM. The band is known for its classic blues sound, infused with rock and roll energy. They will be performing a mix of original compositions and covers of blues legends like B.B. King and Muddy Waters. BFlat Bar provides an intimate and classic jazz club ambiance, perfect for enjoying live music. It's a great chance to witness veteran musicians in their element. A cover charge is applicable for the gig. It is advisable to arrive early to get a good spot, as the venue is popular and can get crowded.",
+    "location": "BFlat Bar, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T21:21:21.121+05:30"
+  },
+  {
+    "content": "Learn the elegant art of 'Calligraphy: The Modern Script' in a beginner-friendly workshop. This session is scheduled for Saturday, August 3rd, 2025, from 2:00 PM to 5:00 PM at a creative studio in Koramangala. A professional calligrapher will guide you through the basics of modern calligraphy, starting with how to hold the pointed pen, basic strokes, and then forming letters and words. By the end of the workshop, you will be able to write a beautiful quote to take home. The workshop fee includes a starter kit with a pen holder, nibs, ink, and practice sheets, which you can keep. This relaxing and mindful art form is a wonderful skill to learn for creating personalized greeting cards, invitations, or simply as a hobby. Register online to book your place.",
+    "location": "Creative Studio, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T13:13:13.313+05:30"
+  },
+  {
+    "content": "The 'Bangalore Sustainability Forum' is hosting a public talk on 'Urban Water Management: Challenges and Solutions' on August 7th, 2025. The talk will be held at the Bangalore International Centre (BIC), Domlur, at 6:30 PM. The speaker is a renowned environmental scientist who has done extensive research on Bangalore's water crisis. The talk will cover issues like groundwater depletion, the state of the city's lakes, and the importance of rainwater harvesting. The speaker will also present innovative and practical solutions that can be implemented at both community and individual levels. The talk will be followed by an interactive Q&A session. This is an important event for every citizen who is concerned about Bangalore's water future. The event is free and open to all, with no prior registration required.",
+    "location": "Bangalore International Centre, Domlur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:37:37.737+05:30"
+  },
+  {
+    "content": "Challenge yourself with the 'Nandi Hills Duathlon', a grueling test of endurance, scheduled for September 7th, 2025. The event consists of a run-cycle-run format. Participants will start with a 5km run at the base of Nandi Hills, followed by a challenging 25km cycling leg up the winding hills, and finishing with a 2.5km run at the top. The event is open to both individual participants and teams of two. It's designed for serious athletes and fitness enthusiasts who want to push their limits. The scenic beauty of Nandi Hills provides a stunning backdrop to the race. All finishers will receive a medal and certificate. The top three in each category will win prizes. Registration is now open online. Prepare for an ultimate test of strength and stamina.",
+    "location": "Nandi Hills, Bangalore Outskirts",
+    "source": "event",
+    "createdAt": "2024-07-26T07:47:47.474+05:30"
+  },
+  {
+    "content": "The 'Global AI Conclave 2025' will be hosted in Bangalore from November 5th to 7th, 2025, at the BIEC. This is one of the largest gatherings of AI professionals, researchers, and business leaders in Asia. The three-day conference will feature multiple tracks covering topics like Generative AI, Reinforcement Learning, AI Ethics, and applications of AI in healthcare, finance, and manufacturing. The conclave will host over 100 speakers, including top researchers from global universities and leaders from major tech companies. There will be an exhibition hall showcasing the latest AI products and services from various startups and corporations. It is an unmissable event for anyone in the AI and ML field to learn, network, and understand the future of artificial intelligence. Super early bird passes are available for a limited time.",
+    "location": "BIEC, Tumkur Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:01:02.345+05:30"
+  },
+  {
+    "content": "The 'Bangalore Vinyl Club' is holding its monthly listening session this Sunday, July 28th, 2025. The session will take place at The Record Room on Magrath Road from 4:00 PM to 7:00 PM. This month's theme is 'The Best of 70s Rock'. Members and guests are invited to bring their favorite rock LPs from the 1970s to play on the high-quality sound system. It's a community for audiophiles and music lovers to share their passion for vinyl records, discover new music, and enjoy a high-fidelity listening experience. The atmosphere is relaxed and social. The Record Room also serves excellent food and drinks. There's no entry fee, but it's appreciated if attendees support the venue by ordering something. Come and enjoy the warm, analog sound of vinyl.",
+    "location": "The Record Room, Magrath Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:16:16.161+05:30"
+  },
+  {
+    "content": "Join a 'Guided Nature Walk' at the Turahalli Forest, a patch of green wilderness within the city limits. The walk is scheduled for Sunday, August 4th, 2025, from 7:00 AM to 9:00 AM. A naturalist will lead the group through the trails, helping to identify the various species of birds, butterflies, and plants found in this dry deciduous forest. It is a great opportunity to learn about the local biodiversity and the importance of preserving urban green spaces. The walk is easy to moderate in difficulty, suitable for all age groups. Participants are advised to wear comfortable walking shoes, carry water, and bring binoculars if they have them. It's a refreshing and educational way to spend a Sunday morning, connecting with nature. A nominal fee is charged for the guided walk.",
+    "location": "Turahalli Forest, Kanakapura Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T05:25:25.525+05:30"
+  },
+  {
+    "content": "The 'Indian Cartoon Gallery' on MG Road is currently hosting an exhibition of the works of the legendary cartoonist R.K. Laxman. Titled 'The Common Man', the exhibition features a collection of his iconic cartoons that brilliantly captured the quirks and realities of Indian life and politics for decades. The exhibition is ongoing and will be open to the public until September 15th, 2025. The gallery is open from 10:00 AM to 6:00 PM, Monday to Saturday. It is a wonderful opportunity for people of all ages to appreciate the genius, wit, and social commentary of one of India's greatest artists. It is also a nostalgic trip for those who grew up reading his daily cartoons. Entry to the gallery is free of charge.",
+    "location": "Indian Cartoon Gallery, MG Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:05:15.515+05:30"
+  },
+  {
+    "content": "The 'Fintech DevCon 2025' is a conference specifically for developers and architects working in the financial technology space. It's scheduled for October 18th, 2025, at the Radisson Blu in Marathahalli. The single-day, multi-track event will feature deep-dive technical sessions on topics like building secure payment gateways, using blockchain for financial applications, API design for banking services, and scaling fintech infrastructure. The speakers are all hands-on tech leads and architects from leading fintech companies and banks. It's a conference by developers, for developers, with a focus on practical knowledge and code. This is a great opportunity to learn from the best in the industry and network with your peers. Early bird tickets are available online. Register now to secure your place at this premier developer event.",
+    "location": "Radisson Blu, Marathahalli, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:10:10.010+05:30"
+  },
+  {
+    "content": "Enjoy an evening of classic rock anthems with 'The Retro Night' at Gilly's 104 Bar in Koramangala. The event is happening tomorrow, July 27th, 2025, from 8:00 PM onwards. A popular local band will be playing a high-energy set of hits from the 70s, 80s, and 90s, covering bands like The Beatles, Eagles, Dire Straits, and Guns N' Roses. It's the perfect opportunity to sing along to your favorite tunes and relive the golden era of rock music. Gilly's 104 offers a great pub atmosphere with good food and a wide selection of drinks. The event is perfect for a fun night out with friends. There is a cover charge for stags and couples, which is redeemable on F&B. Table reservations are recommended for groups.",
+    "location": "Gilly's 104 Bar, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T20:20:10.012+05:30"
+
+  },
+  {
+    "content": "An 'Introduction to Pottery and Wheel Throwing' class is being offered this weekend, on August 3rd and 4th, 2025, at a pottery studio in HSR Layout. This two-day workshop, from 10:00 AM to 1:00 PM each day, is designed for absolute beginners. An experienced potter will guide you through the basics of clay preparation, centering the clay on the potter's wheel, and throwing basic shapes like cylinders and bowls. It's a hands-on, therapeutic experience that allows you to connect with the earth and create something with your own hands. The workshop fee includes all materials and the firing of your best two pieces, which you can collect later. The class size is kept small to ensure individual attention. Book your slot online.",
+    "location": "Pottery Studio, HSR Layout, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:21:22.223+05:30"
+  },
+  {
+    "content": "The 'Cyber Security Conclave 2025' will be held at the Shangri-La Hotel on October 25th, 2025. This crucial event will bring together CISOs, security professionals, and policymakers to discuss the latest threats and defense strategies in cybersecurity. The conclave will cover topics like cloud security, threat intelligence, AI in cybersecurity, and data privacy regulations. There will be keynote speeches from global security experts, panel discussions with industry leaders, and technical workshops on ethical hacking and incident response. It is an essential event for professionals tasked with protecting their organization's digital assets. The conclave also provides a platform to evaluate the latest security products and services from various vendors. Registration for the event is now open on the official website. Take advantage of early bird pricing.",
+    "location": "Shangri-La Hotel, Palace Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:50:51.512+05:30"
+  },
+  {
+    "content": "A 'Salsa Social Night' is happening this Friday, July 26th, 2025, at the La Rosa dance studio in Indiranagar. The event starts at 8:30 PM with a free introductory Salsa workshop for beginners, followed by a social dancing session until midnight. The DJ will be playing a mix of Salsa, Bachata, and Kizomba music. It's a fun and friendly environment for dancers of all levels, from beginners to advanced. You don't need a partner to join in. It’s a great way to learn a new dance form, practice your moves, and socialize with the vibrant Latin dance community in Bangalore. There is a small entry fee for the social night. Dress comfortably and get ready to hit the dance floor. This is a recurring weekly event.",
+    "location": "La Rosa Dance Studio, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T20:50:51.152+05:30"
+  },
+  {
+    "content": "The Bangalore International Airport (BIAL) is hosting a 'Career Day' for aviation enthusiasts and job seekers on August 17th, 2025. The event will be held at a convention center near the airport from 10:00 AM to 4:00 PM. Representatives from various airlines, ground handling agencies, retail partners, and BIAL itself will be present to discuss career opportunities in the aviation industry. There will be openings for various roles, including cabin crew, ground staff, security, and retail management. Candidates can interact directly with recruiters and submit their resumes. There will also be informational sessions about the different careers available in aviation. It's a great opportunity for those aspiring to work in this dynamic industry. Candidates are advised to bring multiple copies of their resume. Entry is free.",
+    "location": "Convention Center, Near BIAL, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:01:23.456+05:30"
+  },
+  {
+    "content": "Learn how to brew the perfect cup of coffee at home with a 'Home Brewing Workshop'. This workshop is being conducted by a specialty coffee roaster at their cafe in Jayanagar on Saturday, August 3rd, 2025. The two-hour session, starting at 4:00 PM, will cover the basics of coffee beans, grinding, and different brewing methods like the French Press, AeroPress, and Pour-over. A professional barista will demonstrate the techniques and guide you as you brew your own coffee. You will learn how factors like grind size, water temperature, and brew time affect the taste of your coffee. The workshop fee includes a bag of freshly roasted coffee beans to take home. It's a must-attend for any coffee lover who wants to elevate their home coffee experience.",
+    "location": "Specialty Coffee Cafe, Jayanagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:14:24.424+05:30"
+  },
+  {
+    "content": "The 'Bangalore Mobile Devs' meetup group is hosting a session on 'Declarative UI with Jetpack Compose and SwiftUI'. The meetup is on August 6th, 2025, at the offices of a major tech company in Bellandur, starting at 6:00 PM. The evening will feature two talks. The first talk will be an introduction to building Android UIs with Jetpack Compose, highlighting its advantages over the traditional XML layout system. The second talk will be a parallel session on building iOS UIs with SwiftUI. This is a great opportunity for mobile developers to learn about the modern way of building user interfaces on both platforms. The talks will be followed by a networking session with snacks. The event is free, but RSVP on the meetup page is mandatory for security purposes.",
+    "location": "Tech Company Office, Bellandur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:17:27.727+05:30"
+  },
+  {
+    "content": "The 'Bangalore Marathon 2025', the city's premier running event, is scheduled for October 19th, 2025. The race will start and finish at the Kanteerava Stadium. The event features three categories: the full marathon (42.195 km), the half marathon (21.097 km), and a 5km Hope Run. The route will take runners through the heart of the city, passing by many of its iconic landmarks. The event is expected to attract thousands of runners from across the country and the world, including elite athletes. The marathon is a qualifier for major international marathons. Registrations are now open on the official event website. There are early bird discounts for those who register in the first month. Start your training now for this prestigious event.",
+    "location": "Kanteerava Stadium, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T07:07:17.171+05:30"
+  },
+  {
+    "content": "The 'Bangalore Queer Film Festival' (BQFF) will be held from August 8th to 11th, 2025. The festival will take place at the Alliance Française de Bangalore and the Goethe-Institut/Max Mueller Bhavan. BQFF showcases a diverse range of feature films, documentaries, and short films from around the world that explore LGBTQIA+ themes and stories. The festival aims to promote understanding and acceptance of queer identities through the medium of cinema. In addition to film screenings, the festival will also feature panel discussions with filmmakers, photo exhibitions, and cultural performances. The festival is a volunteer-run, non-profit event, and entry is free and open to all. The detailed schedule of films will be available on the BQFF website closer to the festival dates. It's an important cultural event that celebrates diversity and inclusion.",
+    "location": "Alliance Française & Goethe-Institut, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:16:26.262+05:30"
+  },
+  {
+    "content": "A 'Graphic Design for Beginners' workshop using Canva is being held on August 10th, 2025. This online workshop, from 11:00 AM to 2:00 PM, is perfect for small business owners, social media managers, and students who want to create professional-looking graphics without learning complex software. A digital marketing expert will teach you how to use Canva to design social media posts, presentations, posters, and logos. The workshop will cover the principles of design, color theory, typography, and how to use Canva's features effectively. The session will be practical and hands-on. Participants will receive a certificate of completion and access to a library of templates. Register online to learn a valuable skill that can help you enhance your brand's visual identity.",
+    "location": "Online Event, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:11:21.121+05:30"
+  },
+  {
+    "content": "The 'Bangalore Theatre Collective' is presenting an evening of short plays titled 'Four by Four' this weekend. The performances are on July 27th and 28th, 2025, at 7:00 PM at the RangaAdhara auditorium in Jayanagar. The event features four short plays by different writers and directors, each lasting about 20 minutes. The plays explore a range of themes, from comedy and romance to suspense and social commentary. It's a great showcase of the emerging talent in Bangalore's vibrant theatre scene. The format offers a diverse and fast-paced theatrical experience for the audience. Tickets are available online and at the venue. It is a perfect evening for those who enjoy contemporary theatre and want to support new artists. Don't miss this eclectic mix of stories.",
+    "location": "RangaAdhara Auditorium, Jayanagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T19:19:29.292+05:30"
+  },
+  {
+    "content": "The 'Bangalore Bicycle Championships' (BBCh) is hosting a 'Time Trial' race this Sunday, July 28th, 2025. The race will be held on a flat and fast course on the outskirts of the city. The first rider will flag off at 7:00 AM. In a time trial, riders start at intervals and race against the clock over a fixed distance. It's a pure test of individual speed and endurance. The race is open to both amateur and elite cyclists, with different categories based on age and bicycle type. BBCh races are known for being well-organized and competitive. It is a great platform for cyclists to benchmark their performance. Registration for the race must be done online in advance. Come and test your mettle against the clock.",
+    "location": "Outskirts of Bangalore, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T04:41:41.141+05:30"
+  },
+  {
+    "content": "The 'Women in Tech Bangalore' chapter is hosting its quarterly conference on September 14th, 2025, at the Hilton Bangalore Embassy GolfLinks. The full-day event is a celebration of women in technology and a platform for learning, networking, and career growth. The conference will feature keynote speeches from inspiring women leaders in tech, technical sessions on a variety of topics, and panel discussions on issues like career advancement and work-life integration. There will also be a career fair where attendees can connect with top companies that are committed to diversity and inclusion. It is a fantastic opportunity for women in the tech industry to connect with peers, find mentors, and get inspired. Tickets are available online, with special discounts for students.",
+    "location": "Hilton Bangalore Embassy GolfLinks, Domlur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:09:19.191+05:30"
+  },
+  {
+    "content": "Learn the basics of 'Urban Gardening and Composting' in a hands-on workshop on Sunday, August 4th, 2025. The workshop will be held at a nursery in Lalbagh from 10:00 AM to 1:00 PM. An expert horticulturist will teach you how to start your own vegetable garden in your balcony or terrace. The session will cover topics like selecting the right containers, preparing the potting mix, choosing the right plants for small spaces, and pest management using organic methods. The second half of the workshop will focus on home composting, teaching you how to turn your kitchen waste into nutrient-rich compost for your plants. It's a great workshop for anyone who wants to start growing their own food and live a more sustainable lifestyle. Register online.",
+    "location": "Nursery, Lalbagh, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:11:22.222+05:30"
+  },
+  {
+    "content": "The 'Bangalore International Arts Festival' (BIAF) is a major cultural event that will take place from September 19th to 28th, 2025. The festival will be held across multiple prestigious venues in the city, including Chowdiah Memorial Hall, an open-air stage at Phoenix Marketcity, and the NGMA. BIAF celebrates a wide range of art forms, featuring classical and contemporary dance performances, Indian and Western classical music concerts, theatre, and visual art exhibitions. The festival brings together renowned artists from India and around the world, making it a truly global celebration of the arts. Many of the events are free and open to the public, while some of the major performances are ticketed. The full schedule and ticketing information will be available on the BIAF website. It's a cultural extravaganza not to be missed.",
+    "location": "Multiple Venues, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:15:51.151+05:30"
+  },
+  {
+    "content": "The 'Go-Karting Amateur Championship' is being held this weekend at the Meco Kartopia track near Hennur. The heats will be on Saturday, July 27th, and the finals on Sunday, July 28th, 2025. This is a great opportunity for racing enthusiasts to experience the thrill of competitive go-karting on a professional track. The championship is open to all amateurs above the age of 15. Participants will compete in several knockout rounds to qualify for the final race. Trophies and prizes will be awarded to the top three finishers. The entry fee includes the use of the go-kart, helmet, and a specific number of laps. It's a high-adrenaline weekend for both participants and spectators. You can register for the championship online or at the track. Come and unleash your inner racer.",
+    "location": "Meco Kartopia, Hennur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:41:14.141+05:30"
+  },
+  {
+    "content": "The 'Bangalore Ad-tech Summit 2025' is scheduled for November 22nd, 2025, at the Ritz-Carlton. This summit is a must-attend for advertising professionals, marketers, publishers, and technology providers. The event will delve into the latest trends and technologies that are shaping the advertising industry, such as programmatic advertising, the future of cookieless advertising, CTV advertising, and the role of AI in media buying. The summit will feature insightful talks from industry leaders, case studies from successful brands, and panel discussions on the challenges and opportunities in the ad-tech space. It is an excellent platform for networking with key players in the advertising ecosystem. Delegate passes can be purchased online. Register now to stay ahead of the curve in the fast-evolving world of advertising technology.",
+    "location": "The Ritz-Carlton, Residency Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:08:18.818+05:30"
+  },
+  {
+    "content": "A 'Classic Movie Night' featuring Alfred Hitchcock's masterpiece 'Psycho' is being held at an open-air cinema in Indiranagar. The screening is tonight, July 26th, 2025, starting at 8:00 PM. Enjoy the suspense and thrill of this iconic black-and-white film under the stars. The venue provides a unique cinematic experience with comfortable bean bags, wireless headphones for high-quality audio, and a large screen. You can also order food and beverages from the food trucks at the venue. It is a perfect way to spend a Friday night for movie lovers. It is advisable to book your tickets online in advance as these screenings are very popular and have limited seating. Blankets are available for rent if it gets chilly. Get ready for a classic dose of horror.",
+    "location": "Open-air Cinema, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T19:19:59.999+05:30"
+  },
+  {
+    "content": "The 'Bangalore Health and Wellness Expo' will take place on September 27th and 28th, 2025, at the Manpho Convention Centre. This two-day expo is a one-stop-shop for everything related to health, fitness, and well-being. The expo will feature stalls from a wide range of businesses, including organic food brands, fitness equipment companies, yoga and meditation centers, alternative therapy practitioners, and nutritional supplement brands. Visitors can attend free health check-ups, fitness workshops, cooking demonstrations, and talks by health experts. It's a great opportunity to discover new products and services that can help you lead a healthier lifestyle. The expo is open to the public from 10:00 AM to 7:00 PM. Entry to the expo is free of charge. It's a must-visit for all health-conscious individuals and families.",
+    "location": "Manpho Convention Centre, Nagavara, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:12:21.122+05:30"
+  },
+  {
+    "content": "The 'AWS User Group Bangalore' is hosting its monthly meetup on August 1st, 2025, at the Amazon Development Centre. The meetup starts at 5:00 PM. This month's theme is 'Serverless Architectures on AWS'. There will be two technical talks. The first talk will cover the best practices for building applications with AWS Lambda and API Gateway. The second talk will be a deep dive into event-driven architectures using services like EventBridge and SQS. The talks will be delivered by AWS solutions architects and experienced developers from the community. It's a great opportunity for developers and architects using AWS to learn from experts and network with their peers. The event is free, but registration on the AWS User Group portal is mandatory for entry into the Amazon office.",
+    "location": "Amazon Development Centre, World Trade Center, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:16:46.464+05:30"
+  },
+  {
+    "content": "The 'Bangalore Improv Comedy' group is performing their show 'Whose Line is it Anyway? Bangalore Edition' this Saturday, July 27th, 2025. The show is at the Jus'Trufs comedy venue in Jakkur, starting at 7:30 PM. In this show, the talented improv artists will create hilarious scenes, characters, and songs on the spot, based on suggestions from the audience. No two shows are ever the same. It's a night of spontaneous, unscripted, and unpredictable comedy that is sure to leave you in splits. The show is highly interactive and engaging for the audience. Jus'Trufs is a cozy venue known for its chocolates and cafe. You can enjoy some delicious food and drinks during the show. Tickets are available online. Book your tickets for a night of guaranteed laughter.",
+    "location": "Jus'Trufs, Jakkur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T18:18:28.282+05:30"
+  },
+  {
+    "content": "A 'UX Design Bootcamp' is being offered as an 8-week, part-time course starting from August 17th, 2025. The classes will be held on Saturdays and Sundays at a design school in Koramangala. This comprehensive bootcamp is designed for those who want to transition into a career in UX design. The curriculum covers the entire design process, including user research, persona creation, information architecture, wireframing, prototyping, and usability testing. The bootcamp is project-based, and students will work on a real-world project to build a strong portfolio. The course is taught by experienced UX designers from the industry. Career support, including portfolio reviews and mock interviews, is also provided. The bootcamp is a significant investment in your career. You can apply for the bootcamp on their website.",
+    "location": "Design School, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:28:38.383+05:30"
+  },
+  {
+    "content": "The 'Oktoberfest Bangalore 2025' is coming to town from October 3rd to 5th, 2025. The city's biggest celebration of German culture and beer will be held at the large open grounds of the Bangalore International Exhibition Centre (BIEC). The festival will feature a wide variety of authentic German beers, including special Oktoberfest brews. There will also be a plethora of German food stalls serving classics like pretzels, sausages, and schnitzels. A live band from Germany will be playing traditional Bavarian music, creating a festive atmosphere. The event will also have fun games and activities for all ages. It's a fantastic weekend of beer, food, music, and fun. Tickets will be available in different categories, including season passes. Get ready to raise your beer steins and say 'Prost!'.",
+    "location": "BIEC, Tumkur Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T13:31:13.113+05:30"
+  },
+  {
+    "content": "The 'Bangalore Hiking Club' is organizing a one-day trek to Skandagiri for a spectacular sunrise experience. The trek is on Saturday, August 3rd, 2025. The group will depart from Bangalore late on Friday night and start the trek in the early hours of Saturday morning to reach the peak before sunrise. The Skandagiri trek is a moderately difficult one, with a rocky terrain. The view of the sunrise from above a sea of clouds is a breathtaking reward for the effort. The trek is led by experienced trek leads, and all safety precautions are taken. The cost of the trek includes transportation from Bangalore, trek permissions, and breakfast. It's a great adventure for thrill-seekers and nature lovers. You can register for the trek on the club's website.",
+    "location": "Skandagiri, Near Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T23:32:33.333+05:30"
+  },
+  {
+    "content": "The 'DesignUp 2025' conference, one of Asia's most respected design conferences, will be held in Bangalore from November 14th to 16th, 2025. The venue will be the Lalit Ashok. DesignUp brings together designers, product managers, and leaders from around the world to share stories, learn from each other, and discuss the future of design and technology. The conference is known for its high-quality talks, hands-on workshops, and intimate networking opportunities. The theme for this year's conference will be announced soon. The conference is a great place to get inspired, learn new skills, and connect with the global design community. Super early bird tickets, which sell out very fast, will be released shortly. Keep an eye on the DesignUp website for announcements.",
+    "location": "The Lalit Ashok, Kumara Krupa Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:10:20.202+05:30"
+  },
+  {
+    "content": "The 'Bangalore Photography Festival' (BPF) is an annual event that celebrates the art of photography. The 2025 edition will be held from October 10th to 19th, 2025, at the Karnataka Chitrakala Parishath. The festival will feature exhibitions of works by renowned international and Indian photographers, covering various genres like photojournalism, fine art, fashion, and wildlife photography. BPF is also a great learning platform, with a series of artist talks, panel discussions, and hands-on workshops conducted by masters in the field. There will also be portfolio review sessions for aspiring photographers. The festival is a must-visit for anyone who loves photography, from professionals and serious amateurs to casual enthusiasts. The exhibitions are free to visit, while the workshops and talks are ticketed.",
+    "location": "Karnataka Chitrakala Parishath, Kumara Krupa Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:15:25.252+05:30"
+  },
+  {
+    "content": "The 'Bangalore Investors Network' is hosting a 'Startup Pitch Day' on August 21st, 2025. The event will be held at a private club in Indiranagar from 4:00 PM to 7:00 PM. This is an exclusive event where a curated list of 8-10 early-stage startups will get to pitch their ideas to a group of angel investors and venture capitalists. The startups are from various sectors, including fintech, health-tech, and SaaS. Each startup will have 5 minutes to pitch, followed by a Q&A session. It is a great opportunity for investors to discover promising new ventures. The event is by invitation only for investors. Startups are selected through a rigorous application process. The event will be followed by a networking dinner, providing a relaxed setting for investors and founders to interact.",
+    "location": "Private Club, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:14:41.414+05:30"
+  },
+  {
+    "content": "A 'Karaoke Night' is happening at the Watson's pub in Ulsoor this evening, July 26th, 2025. The event starts at 8:00 PM and is a great opportunity to unleash your inner rockstar. The karaoke jockey has a vast collection of songs, from English classics to the latest Bollywood hits. You can go solo or sing a duet with your friends. It's a fun, non-judgmental atmosphere where everyone is encouraged to sing their heart out, regardless of their singing ability. Watson's is known for its relaxed rooftop ambiance and affordable drinks, making it a popular spot. There is no entry fee for the karaoke night. It is a perfect way to de-stress and have a blast on a Friday night. Get ready to grab the mic and own the stage.",
+    "location": "Watson's, Ulsoor, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T19:19:49.494+05:30"
+  },
+  {
+    "content": "A 'Zumba Fitness Party' is being organized this Sunday, July 28th, 2025, at the Phoenix Marketcity courtyard. The event is from 9:00 AM to 10:30 AM. It's a high-energy dance fitness session led by a team of licensed Zumba instructors. The 90-minute session will feature a mix of Latin and international rhythms, providing a fun and effective full-body workout. The event is open to everyone, irrespective of age or fitness level. It's a great way to start your Sunday with a dose of energy and positivity. The event is free to attend, but pre-registration on the Phoenix Marketcity app is recommended. Wear comfortable workout attire and sports shoes, and bring a water bottle and a towel. Get ready to dance, sweat, and have a great time.",
+    "location": "Phoenix Marketcity, Mahadevpura, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:06:16.161+05:30"
+  },
+  {
+    "content": "The 'Bangalore Open Data Meetup' is a community of data enthusiasts, developers, and activists who advocate for open data. Their next meetup is on August 10th, 2025, at the Hasgeek office in Domlur. The meetup, starting at 11:00 AM, will focus on 'Using Open Data for Civic Issues'. There will be presentations from individuals and groups who have used publicly available data to create projects that address civic problems in Bangalore, such as waste management or traffic analysis. It's a great platform to learn about the potential of open data and to connect with others who are passionate about using data for social good. The meetup is free to attend. If you have a project to share, you can propose a talk on the meetup page.",
+    "location": "Hasgeek Office, Domlur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:10:30.303+05:30"
+  },
+  {
+    "content": "The 'Bangalore Pet-a-thon 2025' is a fun-filled event for pets and their parents, happening on September 8th, 2025. The event will be held at a large pet-friendly park in Sarjapur Road. The main event is a 3km run/walk where pet parents can participate with their dogs. Apart from the run, the event will feature a pet adoption drive, a pet fashion show, agility games for dogs, and stalls with pet food, accessories, and grooming services. There will also be veterinarians on-site to provide free health check-ups for pets. It's a great day for pet lovers to socialize, have fun with their furry friends, and support animal welfare causes. A part of the proceeds from the registration fee will be donated to a local animal shelter. Register online for this pawsome event.",
+    "location": "Pet Park, Sarjapur Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T07:07:37.373+05:30"
+  },
+  {
+    "content": "The 'VR/AR Global Summit - Bangalore Chapter' is taking place on October 4th, 2025. This one-day event at the World Trade Center will bring together developers, creators, and business leaders in the immersive technology space. The summit will explore the latest advancements and applications of Virtual and Augmented Reality in various sectors like gaming, healthcare, education, and enterprise. The event will feature talks from pioneers in the field, hands-on workshops on developing for VR/AR platforms, and a demo zone where attendees can experience the latest hardware and software. It is a fantastic opportunity to understand the state of the art in immersive tech and network with the key players in the Bangalore VR/AR ecosystem. Tickets are available online, with special prices for students and developers.",
+    "location": "World Trade Center, Malleswaram, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:09:49.494+05:30"
+  },
+  {
+    "content": "The 'Bangalore Food Truck Festival' is back for its winter edition. The festival will be held on December 7th and 8th, 2025, at the Pebble Jungle Lounge near Palace Grounds. The festival will bring together over 30 of the city's best food trucks, offering a wide variety of cuisines, from Mexican and Italian to Asian and fusion. It's a paradise for foodies, with endless options to explore. The festival will also have live music performances by local bands, a flea market with quirky products, and a dedicated kids' zone. The vibrant, carnival-like atmosphere makes it a perfect weekend outing for friends and families. The festival will be on from 12:00 PM to 11:00 PM on both days. There will be an entry fee for the festival.",
+    "location": "Pebble Jungle Lounge, Palace Grounds, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:12:21.121+05:30"
+  },
+  {
+    "content": "The 'Bangalore Debate Society' is hosting a public debate on the motion 'This House Believes that Artificial Intelligence poses a fundamental threat to humanity'. The debate is on August 9th, 2025, at 5:00 PM at the Indian Institute of World Culture in Basavanagudi. The debate will feature experienced debaters who will argue for and against the motion, presenting well-reasoned arguments and rebuttals. It promises to be a thought-provoking and intellectually stimulating evening. The audience will also have an opportunity to ask questions and share their views. This is a great event for those who enjoy intellectual discourse and want to explore the complex issues surrounding AI. The event is free and open to the public. Come and witness the art of persuasion in action.",
+    "location": "Indian Institute of World Culture, Basavanagudi, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T16:16:36.363+05:30"
+  },
+  {
+    "content": "A 'Screenwriting Workshop' for aspiring filmmakers and writers is being conducted on August 17th and 18th, 2025. This two-day workshop will be held at a film institute in Cooke Town. A professional screenwriter with credits in film and television will facilitate the workshop. The curriculum will cover the fundamentals of screenwriting, including story structure (three-act structure), character development, writing compelling dialogue, and formatting a screenplay. Participants will work on developing their own story idea into a screenplay outline. The workshop will include analysis of scenes from classic films. It's a practical, hands-on workshop that will give you the tools to start writing your own screenplay. You can register for the workshop online. Seats are limited to ensure a good interactive experience.",
+    "location": "Film Institute, Cooke Town, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:10:40.404+05:30"
+  },
+  {
+    "content": "The 'Electronic Music Conference' (EMC) Bangalore is a two-day event for DJs, music producers, and fans of electronic music. It is scheduled for November 29th and 30th, 2025, at a hotel in Koramangala. The conference will feature workshops on music production techniques, DJing skills, and the business of music. There will be panel discussions with industry professionals on topics like getting your music signed to a label and building your artist brand. The evenings will feature showcases by talented local and international DJs. EMC is a great platform to learn, network, and get inspired if you are passionate about electronic music. A variety of passes, including day passes and full conference passes, will be available for purchase online. Don't miss this opportunity to connect with the electronic music industry.",
+    "location": "Hotel, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:11:31.131+05:30"
+  },
+  {
+    "content": "The 'Bangalore Cyclothon 2025' is a massive cycling event aimed at promoting a healthy lifestyle and sustainable transport. The event is on November 2nd, 2025, and will start from Cubbon Park. There are multiple ride categories to cater to everyone, from a 50km 'Challenge Ride' for serious cyclists to a 20km 'Green Ride' for amateur cyclists and a 5km 'Family Fun Ride'. The routes are well-planned and will be managed with proper traffic control and support stations. Thousands of cyclists are expected to participate in this celebration of cycling. The event will also have an expo with stalls from cycling brands. Registration for the event is now open online. All registered participants will receive a t-shirt, a medal, and breakfast. Come and be a part of this green initiative.",
+    "location": "Cubbon Park, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T07:07:47.474+05:30"
+  },
+  {
+    "content": "The 'Bangalore Gaming Festival' (BGF) is a three-day extravaganza for gamers, scheduled from January 16th to 18th, 2026, at the BIEC. BGF will feature large-scale esports tournaments for popular games like Valorant and BGMI, with huge prize pools. The festival will also have a massive expo area where attendees can try out the latest games and hardware from top gaming companies. There will be meet-and-greet sessions with famous gamers and streamers, cosplay competitions, and a retro gaming zone. BGF is the ultimate destination for the gaming community to come together and celebrate their passion. Tickets for the festival, including spectator passes and tournament registrations, will go on sale later this year. Get ready for an epic weekend of gaming action.",
+    "location": "BIEC, Tumkur Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T22:22:32.323+05:30"
+  },
+  {
+    "content": "An 'Immersive Art Exhibition' titled 'Van Gogh 360' is coming to Bangalore. This unique exhibition will be held at a specially constructed venue in Whitefield from September 1st to 30th, 2025. Using cutting-edge projection technology, the exhibition brings the masterpieces of Vincent van Gogh to life in a 360-degree digital spectacle. Visitors will be surrounded by large-scale projections of his famous works like 'Starry Night' and 'Sunflowers', all set to a moving musical score. It's a completely new way to experience art, where you can step inside the paintings. The experience lasts for about an hour. It is a must-visit for art lovers, families, and anyone looking for a unique cultural experience. Tickets are sold for specific time slots and must be booked online in advance.",
+    "location": "Exhibition Venue, Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:15:35.353+05:30"
+  },
+  {
+    "content": "The 'Bangalore Entrepreneurs Meetup' is a monthly networking event for founders, aspiring entrepreneurs, and startup enthusiasts. The next meetup is on August 8th, 2025, at a co-working space in HSR Layout, from 6:00 PM to 8:00 PM. The format is informal, with a focus on networking and peer-to-peer learning. Each meetup has a short 'startup showcase' where two founders present their ventures and get feedback from the community. It's a great place to bounce off ideas, find a co-founder, or just connect with like-minded people in the startup ecosystem. The event is free to attend, but registration on the meetup page is required. Come and be a part of this supportive community and get your monthly dose of entrepreneurial energy. Snacks and beverages will be provided.",
+    "location": "Co-working Space, HSR Layout, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:17:47.474+05:30"
+  },
+  {
+    "content": "A 'Traditional South Indian Cooking Class' is being held on August 11th, 2025. The class will take place at a home-chef's kitchen in Malleswaram from 11:00 AM to 2:00 PM. Participants will learn to cook a complete, authentic vegetarian South Indian meal from scratch. The menu includes classics like Bisi Bele Bath, a vegetable poriyal, kosambari, and a traditional payasam. The home-chef will share her family recipes and traditional cooking techniques. The class is hands-on, and participants will get to be involved in the cooking process. At the end of the class, everyone will sit down together to enjoy the delicious meal they have prepared. It's a wonderful cultural and culinary experience. The class size is kept very small for a personalized experience, so book your spot well in advance.",
+    "location": "Home-chef's Kitchen, Malleswaram, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:12:42.424+05:30"
+  },
+  {
+    "content": "The 'Bangalore Acro-Yoga Jam' is a weekly gathering for practitioners of Acro-Yoga. The jam takes place every Sunday afternoon from 3:00 PM to 6:00 PM at Cubbon Park, near the Queen Victoria statue. Acro-Yoga is a physical practice that combines yoga, acrobatics, and Thai massage. The jam is an informal session where people of all skill levels can come to practice, play, and learn from each other in a safe and supportive environment. There are always experienced practitioners present who are happy to guide beginners. You don't need a partner to join. It's a great way to build strength, flexibility, trust, and communication skills. The jam is free to attend. Just bring your yoga mat and a willingness to try something new. The next jam is on July 28th, 2025.",
+    "location": "Cubbon Park, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:14:54.545+05:30"
+  },
+  {
+    "content": "The 'Indo-German Urban Arts Festival' is a collaborative event celebrating street art, happening from November 7th to 9th, 2025. The festival will take place in the Indiranagar area, with various walls being transformed into canvases for artists from India and Germany. The festival will feature live painting by renowned street artists, workshops on stencil art and graffiti, and guided art walks. The evenings will have music performances and film screenings at a local venue. The festival aims to foster cultural exchange and promote public art. It's a vibrant and dynamic event that will bring art out of the galleries and onto the streets for everyone to enjoy. Most of the events are free and open to the public. The full schedule of artists and events will be published on the Goethe-Institut website.",
+    "location": "Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:15:45.454+05:30"
+  },
+  {
+    "content": "A 'Public Speaking Club' for professionals meets every alternate Saturday at a community hall in Jayanagar. The next meeting is on August 10th, 2025, from 10:00 AM to 12:00 PM. The club provides a supportive and constructive environment for members to practice and improve their public speaking and leadership skills. Each meeting has a structured agenda, including prepared speeches, impromptu speaking sessions (Table Topics), and evaluations. Members get regular opportunities to speak and receive feedback from their peers. It's a great platform to build confidence, overcome stage fright, and become a more effective communicator. Guests are welcome to attend a meeting for free to experience the club's functioning. It's a great investment in your personal and professional development. For more details, visit their website.",
+    "location": "Community Hall, Jayanagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:08:38.383+05:30"
+  },
+  {
+    "content": "The 'Bangalore Folk Festival' is an annual event that celebrates the rich folk traditions of Karnataka. The festival will be held on October 26th, 2025, at the Janapada Loka, a folk-art museum on the Bangalore-Mysore highway. The full-day event will feature performances of various folk art forms, including Dollu Kunitha (a powerful drum dance), Yakshagana (a traditional theatre form), and various folk songs and dances. There will also be stalls showcasing traditional crafts and rural cuisine. The festival provides a platform for folk artists from across the state to showcase their talent and helps to preserve these ancient art forms. It is a colorful and vibrant event that offers a glimpse into the cultural soul of Karnataka. It's a great day trip for families from Bangalore.",
+    "location": "Janapada Loka, Ramanagara, Near Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:11:41.414+05:30"
+  },
+  {
+    "content": "The 'Data Science with R' workshop is a three-day intensive course for aspiring data scientists and analysts. The workshop will be held from August 22nd to 24th, 2025, at a training center in Whitefield. The course will cover the fundamentals of the R programming language and its application in data science. Participants will learn about data structures in R, data manipulation using the dplyr package, data visualization with ggplot2, and basic statistical modeling. The workshop is hands-on, with participants working on real-world datasets. It is ideal for those who want to learn a powerful tool for statistical computing and graphics. A basic understanding of statistical concepts is beneficial but not mandatory. Register online to begin your journey into data science with R.",
+    "location": "Training Center, Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:09:59.959+05:30"
+  },
+  {
+    "content": "The 'Bangalore International Dance Festival' (BIDF) is a month-long celebration of dance, held every year in September. The 2025 edition will run from September 1st to 30th. The festival will feature a diverse range of performances, including classical Indian dance forms like Bharatanatyam and Kathak, contemporary dance, and international dance styles. The performances will be held at various venues across the city, including major auditoriums and public spaces. The festival will also include workshops by renowned dancers, lecture-demonstrations, and a dance film festival. BIDF aims to make dance accessible to a wider audience and to provide a platform for both established and emerging dancers. The festival is a treat for all dance lovers. The detailed schedule will be released on the festival's official website.",
+    "location": "Multiple Venues, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:15:55.555+05:30"
+  },
+  {
+    "content": "A 'Mindfulness for Stress Reduction' course is being offered as an 8-week program starting from August 5th, 2025. The classes will be held every Tuesday evening from 7:00 PM to 9:00 PM at a wellness center in Koramangala. The course is based on the acclaimed Mindfulness-Based Stress Reduction (MBSR) program. Participants will learn various mindfulness practices, including sitting meditation, body scan, and mindful movement. The course is designed to help individuals cope with stress, anxiety, and chronic pain by cultivating a moment-to-moment awareness. The program includes a full-day silent retreat on one of the weekends. It is a highly effective, evidence-based program that can have a profound impact on your well-being. An orientation session for interested participants will be held next week.",
+    "location": "Wellness Center, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:06:26.262+05:30"
+  },
+  {
+    "content": "The 'Bangalore Game Devs' meetup is for anyone interested in making games, from professional developers to hobbyists. Their next meetup is on August 7th, 2025, at the offices of a gaming company in Electronic City. The meetup, starting at 6:30 PM, will have two parts. The first part is a 'show and tell' where developers can demo their ongoing projects and get feedback from the community. The second part is a talk by an industry veteran on 'Game Design Principles for Mobile Games'. It's a great place to network with other game developers, learn new things, and find collaborators for your projects. The meetup is free to attend, and snacks will be provided. Please RSVP on their meetup page for a smooth check-in process.",
+    "location": "Gaming Company Office, Electronic City, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:17:57.575+05:30"
+  },
+  {
+    "content": "The 'NH7 Weekender' music festival has announced its Bangalore edition for 2025. The festival will take place on November 22nd and 23rd, 2025, at a large venue on the outskirts of the city. NH7 Weekender is one of India's most popular multi-genre music festivals, featuring a diverse lineup of Indian and international artists. The festival has multiple stages catering to different genres, from indie and rock to electronic and hip-hop. Apart from the music, the festival has a vibrant atmosphere with food stalls, flea markets, and art installations. It's a complete cultural experience and the happiest music festival. The lineup and ticket details will be announced in the coming months. Music fans are eagerly awaiting the return of this iconic festival to Bangalore.",
+    "location": "Festival Venue, Outskirts of Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T22:22:42.424+05:30"
+  },
+  {
+    "content": "A 'Financial Modeling and Valuation' workshop for finance professionals and MBA students is being held on August 30th and 31st, 2025. This intensive two-day workshop will take place at a business hotel near MG Road. The workshop will teach participants how to build a financial model from scratch using Excel. The curriculum covers topics like forecasting financial statements, discounted cash flow (DCF) valuation, and comparable company analysis. The workshop is hands-on, and participants will work on a case study of a real company. It is taught by a seasoned investment banker. This is a valuable skill for anyone in corporate finance, investment banking, or equity research. Participants are required to bring their own laptops with Microsoft Excel installed. Register online to enhance your finance skills.",
+    "location": "Business Hotel, MG Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:08:48.484+05:30"
+  },
+  {
+    "content": "A 'Heritage Walk through Pete areas' of Bangalore is being organized this Sunday, July 28th, 2025. The walk starts at 7:30 AM from the Kote Venkataramana Swamy Temple near KR Market. This guided walk will take you through the narrow lanes of the old city, which was founded by Kempegowda. The walk will cover historical sites like the Bangalore Fort, Tipu Sultan's Summer Palace, and various old temples. The guide, a historian, will share fascinating stories and historical facts about the origins and growth of Bangalore. It's a journey back in time and a great way to understand the city's rich history. The walk lasts for about 3 hours. It is a ticketed event, and prior registration is required. Wear comfortable shoes and carry a water bottle.",
+    "location": "KR Market area, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T05:05:15.151+05:30"
+  },
+  {
+    "content": "The 'Bangalore Stand-up Comedy Festival' is a week-long celebration of laughter, from September 22nd to 28th, 2025. The festival will be held at multiple venues across the city, including major auditoriums and comedy clubs. The festival will feature performances by some of the biggest names in Indian stand-up comedy, as well as showcases of emerging talent from Bangalore and other cities. There will be a variety of shows, including solo specials, line-up shows, and open mics. It's a feast for comedy lovers, with something for everyone. A festival pass will provide access to multiple shows at a discounted price. The detailed schedule and tickets will be available on major booking platforms. Get ready for a week of non-stop laughter and fun.",
+    "location": "Multiple Venues, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T18:18:38.383+05:30"
+  },
+  {
+    "content": "The 'Bangalore Rooftop Cinema Club' is screening the romantic comedy 'Notting Hill' this Saturday, July 27th, 2025. The screening will take place on the rooftop of a building in Koramangala, starting at 7:30 PM. Enjoy this heartwarming classic film with a stunning view of the city skyline. The venue offers a cozy and intimate setting with comfortable seating and personal headphones for an immersive audio experience. You can also enjoy delicious food and drinks available at the venue. It is a perfect idea for a romantic date night or a relaxed evening with friends. Tickets must be booked online in advance, as seats are limited. It is recommended to arrive a little early to get the best seats and enjoy the ambiance. Blankets will be provided.",
+    "location": "Rooftop Venue, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T19:19:39.393+05:30"
+  },
+  {
+    "content": "The 'Bangalore UI/UX Design Meetup' is a community for designers to learn and share. Their next meetup is on August 14th, 2025, at the office of a design-led company in Domlur. The meetup, starting at 6:00 PM, will have two presentations. The first one will be a case study of a recent redesign project by the host company's design team. The second presentation will be on 'The Psychology of User Onboarding'. The meetup is a great opportunity for UI/UX designers to network, learn from their peers, and stay updated on the latest trends in the industry. The event is free to attend, and refreshments will be served. Please RSVP on the meetup page to confirm your attendance. Come and connect with the vibrant design community of Bangalore.",
+    "location": "Design Company Office, Domlur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:17:37.373+05:30"
+  },
+  {
+    "content": "The 'Bangalore Ultimate Frisbee Open' tournament is being held on the weekend of September 13th and 14th, 2025. The tournament will take place at a large sports ground on Sarjapur Road. Ultimate Frisbee is a fast-paced, non-contact team sport played with a frisbee. This tournament will see teams from Bangalore and other cities competing for the championship. It's a great spectator sport, with athletic plays and a focus on sportsmanship (the 'Spirit of the Game'). The tournament will have a festive atmosphere with music and food stalls. It's a great opportunity to watch some high-level Ultimate and learn more about this growing sport. The tournament is open for public viewing, and there is no entry fee for spectators. Come and cheer for the teams.",
+    "location": "Sports Ground, Sarjapur Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:14:34.343+05:30"
+  },
+  {
+    "content": "A 'Travel Writing and Blogging Workshop' is being conducted on August 24th, 2025. This one-day workshop will be held at a cafe in Indiranagar from 10:00 AM to 4:00 PM. The workshop will be facilitated by a successful travel blogger and writer. Participants will learn how to write engaging travelogues, find their unique voice, and take better travel photos. The workshop will also cover the basics of starting a travel blog, creating content, and using social media to build an audience. It's a great workshop for aspiring travel writers and anyone who wants to document their travels in a more meaningful way. The workshop fee includes lunch and a workbook with resources. Register online to turn your travel passion into a creative pursuit.",
+    "location": "Cafe, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:10:50.505+05:30"
+  },
+  {
+    "content": "A 'Dog Training and Behavior Workshop' for pet parents is being held on August 18th, 2025. The half-day workshop, from 9:00 AM to 1:00 PM, will take place at a pet resort near Whitefield. A certified canine behaviorist will teach participants the fundamentals of positive reinforcement training. The workshop will cover topics like basic obedience commands (sit, stay, come), leash training, and how to deal with common behavior problems like barking and chewing. The session will be interactive, with live demonstrations. It's an essential workshop for all dog parents, especially new ones, to build a strong and positive relationship with their furry companions. You can attend the workshop with or without your dog. The registration fee is per person. Book your spot online.",
+    "location": "Pet Resort, Near Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:06:36.363+05:30"
+  },
+  {
+    "content": "The 'Bangalore Marketing Conclave' is a one-day conference for marketing professionals, scheduled for October 17th, 2025. The event will be held at the Le Meridien hotel. The conclave will bring together marketing leaders from various industries to discuss the latest trends and strategies in marketing. The agenda includes topics like content marketing, performance marketing, influencer marketing, and the use of AI in marketing. The conference will feature keynote speeches, panel discussions, and case study presentations from leading brands. It's a great opportunity for marketers to learn from the best, network with their peers, and get fresh ideas to drive growth for their businesses. Delegate passes are now available for purchase online. An early bird discount is available for a limited period.",
+    "location": "Le Meridien, Sankey Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:08:58.585+05:30"
+  },
+  {
+    "content": "The 'Bangalore Children's Theatre Festival' is an annual event that brings the magic of theatre to young audiences. The festival will run from November 14th to 23rd, 2025, with performances at Ranga Shankara and other venues. The festival will showcase a variety of plays for children of different age groups, performed by professional theatre groups from India and abroad. The plays are not just entertaining but also aim to be educational and thought-provoking. Apart from the plays, the festival will also have storytelling sessions, puppetry workshops, and other interactive activities for children. It's a wonderful way to introduce children to the performing arts and to spark their imagination. The schedule and tickets will be available on the Ranga Shankara website. Plan a theatrical treat for your kids.",
+    "location": "Ranga Shankara, JP Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:15:15.151+05:30"
+  },
+  {
+    "content": "The 'Bangalore Salsa Festival' is a three-day celebration of Latin dance, from November 7th to 9th, 2025. The festival will be held at a luxury hotel in the city. The event will feature workshops by renowned international and national Salsa artists, catering to all levels from beginners to advanced dancers. The nights will be filled with electrifying parties with top Latin DJs, and stunning performances by the artists. The festival will cover various dance styles, including Salsa, Bachata, and Kizomba. It's a fantastic opportunity for Latin dance enthusiasts to learn from the best, improve their skills, and dance the night away. Various types of passes, including full festival passes and party passes, will be available for purchase online. Book your pass for this ultimate Latin dance experience.",
+    "location": "Luxury Hotel, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T22:22:52.525+05:30"
+  },
+  {
+    "content": "A 'Mobile Photography Workshop' is being conducted this Sunday, July 28th, 2025. The three-hour workshop, from 9:00 AM to 12:00 PM, will be held at the picturesque Sankey Tank. The workshop is designed for anyone who wants to take better photos with their smartphone. A professional photographer will teach you the fundamentals of composition, lighting, and framing. The workshop will also cover mobile-specific techniques like using portrait mode, HDR, and various camera apps. The second half of the workshop will be a hands-on photo walk around the lake, where you can practice the techniques you've learned. It's a great way to enhance your photography skills using the camera that's always with you. Register online to book your spot. The workshop fee is nominal.",
+    "location": "Sankey Tank, Malleswaram, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T05:05:25.252+05:30"
+  },
+  {
+    "content": "The 'Bangalore International CEO Conclave' is an exclusive, invitation-only event for business leaders, scheduled for September 26th, 2025. The conclave will be held at the Taj West End. The event will bring together CEOs from a cross-section of industries to discuss key challenges and opportunities facing businesses today. The theme for the conclave is 'Leading in an Age of Disruption'. The day will consist of thought-provoking keynote addresses, interactive panel discussions, and closed-door roundtable sessions. It is a high-level networking and knowledge-sharing platform for the city's top business leaders. The conclave aims to foster collaboration and provide insights that can help leaders navigate the complexities of the modern business environment. Attendance is strictly by invitation from the organizing committee.",
+    "location": "Taj West End, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:08:28.282+05:30"
+  },
+  {
+    "content": "The 'Bangalore Unplugged Sessions' is a weekly acoustic music night at a cozy cafe in Koramangala. The next session is on Wednesday, July 31st, 2025, at 8:00 PM. Each week, the session features talented local singer-songwriters who perform their original music and soulful covers in an intimate, acoustic setting. It's a great platform for discovering new music and supporting independent artists. The cafe provides a warm and relaxed atmosphere, perfect for enjoying live music. There is no entry fee for the event, but it's appreciated if you order something from the cafe. It's a perfect mid-week break for music lovers. Come and enjoy an evening of beautiful melodies and heartfelt lyrics. The lineup for each week is announced on the cafe's social media pages.",
+    "location": "Cafe, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T20:20:30.303+05:30"
+  },
+  {
+    "content": "A 'Laughter Yoga' session is held every Sunday morning at 8:00 AM in Lalbagh, near the Bandstand. The next session is on July 28th, 2025. Laughter Yoga is a unique practice that combines unconditional laughter with yogic breathing exercises. It is based on the scientific fact that the body cannot differentiate between fake and real laughter, and you get the same physiological and psychological benefits. The session is led by a certified Laughter Yoga teacher and involves a series of playful laughter exercises. It's a fun and energetic way to reduce stress, boost your mood, and improve your health. The session is free and open to people of all ages. No yoga experience is needed. Just come with an open mind and a willingness to laugh.",
+    "location": "Lalbagh Botanical Garden, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T06:06:46.464+05:30"
+  },
+  {
+    "content": "The 'Bangalore Poetry Festival' is an annual celebration of poetry, scheduled for August 9th and 10th, 2025. The festival will be held at the Leela Palace. The two-day festival will feature readings and performances by a diverse group of poets, writing in English and various Indian languages. The festival will also include panel discussions on topics related to poetry, workshops on poetry writing and performance, and an open mic for aspiring poets. It is a wonderful platform for poetry lovers to listen to their favorite poets, discover new voices, and immerse themselves in the world of verse. The festival brings together the entire poetry community, from established poets to young enthusiasts. Entry to the festival is usually ticketed. The detailed schedule will be announced closer to the date.",
+    "location": "The Leela Palace, Old Airport Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T15:15:25.525+05:30"
+  },
+  {
+    "content": "The 'Kubernetes and Cloud Native Bangalore Meetup' is a community for professionals working with cloud-native technologies. Their next meetup is on August 15th, 2025, at the Microsoft India Development Center. The meetup, starting at 10:00 AM, will focus on 'Kubernetes Security'. There will be two talks: one on 'Best Practices for Securing Kubernetes Clusters' and another on 'Container Security Scanning in a CI/CD Pipeline'. The talks will be delivered by security experts from the community. It's a great opportunity to learn about a critical aspect of running Kubernetes in production and to network with other cloud-native professionals. The event is free, but registration on the CNCF community page is mandatory for entry. Lunch will be provided. Come and learn how to secure your cloud-native applications.",
+    "location": "Microsoft India Development Center, Bellandur, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:09:39.393+05:30"
+  },
+  {
+    "content": "The 'Bangalore Local' flea market is happening this weekend, July 27th and 28th, 2025, at a venue in JP Nagar. The market is open from 11:00 AM to 9:00 PM. It's a curated market that showcases products from local artists, designers, and small businesses. You can find a wide range of products, including handcrafted jewelry, quirky home decor, organic skincare products, and fashionable apparel. The market also has a food section with delicious offerings from local home bakers and chefs. It's a great place to shop for unique products, support local entrepreneurs, and spend a relaxed weekend. The market has a lively atmosphere with music and a great vibe. There is a small entry fee for the market. Come and discover the creative talent of Bangalore.",
+    "location": "Venue, JP Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:12:52.525+05:30"
+  },
+  {
+    "content": "A 'Beginner's Chess Workshop' for children is being organized on August 3rd and 4th, 2025. This two-day workshop will be held at a children's activity center in Whitefield from 10:00 AM to 12:00 PM. The workshop is designed for children aged 6 to 12 who are new to the game of chess. An experienced chess coach will teach the children the rules of the game, the movement of the pieces, and basic chess strategies and tactics. The workshop will use fun and interactive methods to make learning chess enjoyable for children. Playing chess helps to develop critical thinking, problem-solving, and concentration skills. The workshop fee includes all materials. Register your child for this workshop to introduce them to this wonderful mind sport.",
+    "location": "Children's Activity Center, Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:10:50.501+05:30"
+  },
+  {
+    "content": "A 'Fusion Music Concert' featuring the renowned 'Indus Creed' band is happening on August 23rd, 2025. The concert will take place at the open-air amphitheater of the UB City. The show starts at 7:30 PM. Indus Creed is one of the pioneers of rock music in India, and their music is a powerful blend of rock with elements of Indian classical music. The band will be performing their classic hits as well as material from their new album. The stunning setting of UB City and the band's energetic performance promise a memorable night for music lovers. This is a must-attend concert for fans of Indian rock and fusion music. Tickets for the concert are available online and are expected to sell out fast. Book your tickets for a night of groundbreaking music.",
+    "location": "UB City Amphitheater, Vittal Mallya Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T21:21:42.424+05:30"
+  },
+  {
+    "content": "The 'Bangalore Real Estate Expo 2025' will be held on September 20th and 21st, 2025, at the Lalit Ashok. This is the city's largest property expo, bringing together leading builders and developers under one roof. The expo will showcase a wide range of properties, including apartments, villas, and plots, from various parts of the city and at different price points. It's a great opportunity for potential homebuyers to explore various options, compare properties, and get exclusive deals and offers from the developers. There will also be representatives from major banks to provide information on home loans. The expo is a one-stop-shop for all your property needs. Entry to the expo is free. If you are looking to buy a home in Bangalore, this is an event you should not miss.",
+    "location": "The Lalit Ashok, Kumara Krupa Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:11:51.515+05:30"
+  },
+  {
+    "content": "A 'Tai Chi in the Park' session is held every Saturday morning at 7:00 AM in Cubbon Park, near the State Central Library. The next session is on July 27th, 2025. Tai Chi is a gentle Chinese martial art that is practiced for its health benefits. It involves slow, flowing movements that promote balance, flexibility, and relaxation. The session is led by an experienced Tai Chi instructor and is suitable for people of all ages and fitness levels. It's a great way to start your weekend with a mindful and rejuvenating practice amidst the tranquility of nature. The session is free and open to all. No prior experience is needed. Just wear comfortable clothing and come and experience the benefits of this ancient practice.",
+    "location": "Cubbon Park, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T04:41:51.515+05:30"
+  },
+  {
+    "content": "The 'Bangalore International Olive Festival' is a unique event dedicated to olives and olive oil, happening on November 1st and 2nd, 2025. The festival will be held at a luxury hotel in the city. The event will feature olive and olive oil producers from various Mediterranean countries. Attendees can participate in guided olive oil tasting sessions, learning to distinguish between different varieties and qualities of olive oil. There will be cooking demonstrations by renowned chefs, showcasing the use of olive oil in various cuisines. The festival will also have a market where you can buy high-quality olive oils and other olive products. It's an educational and gastronomic experience for food lovers and health-conscious individuals. Tickets for the festival will be available online.",
+    "location": "Luxury Hotel, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:12:32.323+05:30"
+  },
+  {
+    "content": "The 'Deep Learning Bangalore' meetup group is hosting a session on 'Large Language Models (LLMs) and their Applications'. The meetup is on August 20th, 2025, at the NASSCOM Startup Warehouse in Diamond District, from 6:00 PM onwards. The session will feature a talk by a senior AI researcher on the architecture of popular LLMs like GPT and how they work. The second part of the session will be a panel discussion with founders of AI startups who are building applications on top of LLMs. It's a great opportunity for AI/ML professionals and students to get a deep understanding of this transformative technology and its practical applications. The event is free, but registration is mandatory due to limited seating. Come and be a part of the AI revolution.",
+    "location": "NASSCOM Startup Warehouse, Diamond District, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T17:17:27.272+05:30"
+  },
+  {
+    "content": "The 'Bangalore Open Air Theatre Festival' is a week-long festival of plays performed in open-air settings, from October 20th to 26th, 2025. The festival will take place at various venues, including the lawns of the NGMA and the amphitheater at the Indian Music Experience Museum. The festival will feature a mix of classic and contemporary plays, performed by local and national theatre groups. Watching a play under the stars provides a unique and magical theatrical experience. The festival aims to make theatre more accessible and to explore new performance spaces. The schedule of plays and venues will be announced in September. Some performances will be free, while others will be ticketed. It's a great way to enjoy the pleasant Bangalore weather and some quality theatre.",
+    "location": "Multiple Open-Air Venues, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T18:18:48.484+05:30"
+  },
+  {
+    "content": "A 'Vegan Baking Workshop' is being conducted on August 25th, 2025. This hands-on workshop will be held at a vegan cafe in Indiranagar from 2:00 PM to 5:00 PM. Participants will learn how to bake delicious cakes, cookies, and brownies without using any dairy products or eggs. The chef will teach you about various plant-based substitutes for eggs and butter and the techniques to get the right texture and taste in your baked goods. The workshop is perfect for vegans, people with lactose intolerance, or anyone interested in healthier baking options. You will get to take home a box of the goodies you bake in the class. The workshop fee includes all ingredients and a recipe booklet. Register online to learn the secrets of delicious vegan baking.",
+    "location": "Vegan Cafe, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T13:13:23.232+05:30"
+  },
+  {
+    "content": "The 'Bangalore Service Jam' is a 48-hour event where people from different backgrounds come together to design and prototype new services. The jam will be held from Friday, September 12th to Sunday, September 14th, 2025, at a design studio in Koramangala. The theme for the jam will be revealed at the start of the event. Participants will form teams and work through the entire service design process, from user research to prototyping and testing. It's a high-energy, collaborative, and fun event. It's a great learning experience for anyone interested in design thinking, service design, and innovation. You don't need to be a designer to participate. The event is open to students and professionals from all fields. Register online for this exciting creative challenge.",
+    "location": "Design Studio, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:09:29.292+05:30"
+  },
+  {
+    "content": "The 'Bangalore Motorcycle Festival' is a two-day event for biking enthusiasts, scheduled for December 13th and 14th, 2025. The festival will be held at a large open ground on the outskirts of the city. The event will feature a display of custom-built and vintage motorcycles, stunt riding shows by professional riders, and test rides of the latest motorcycles from major brands. There will be stalls selling riding gear, accessories, and motorcycle parts. The festival will have a rock music stage with live performances by bands. It's a great place for the biking community to come together, showcase their passion, and celebrate the culture of motorcycling. There will be a registration fee for the event. Get ready for a weekend of roaring engines and rock and roll.",
+    "location": "Open Ground, Outskirts of Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T23:23:42.424+05:30"
+  },
+  {
+    "content": "A 'Parenting Workshop' on 'Positive Discipline' is being held on August 17th, 2025. The workshop will be conducted at a school in Koramangala from 10:00 AM to 1:00 PM. The workshop is for parents of children of all ages. A child psychologist will facilitate the workshop, teaching parents the principles of positive discipline, which focuses on teaching and guiding children rather than punishing them. The workshop will provide practical tools and strategies to handle common parenting challenges and to build a respectful and cooperative relationship with your child. The session will be interactive, with opportunities for parents to share their experiences and ask questions. Register for this workshop to learn a more effective and peaceful approach to parenting.",
+    "location": "School, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:08:18.181+05:30"
+  },
+  {
+    "content": "The 'Bangalore International Jazz Festival' is set to take place from November 28th to 30th, 2025. The festival will be held at the beautiful lawns of the Jayamahal Palace Hotel. The festival will feature a lineup of acclaimed jazz musicians from India and around the world, playing a variety of styles from classic and swing to contemporary and fusion jazz. The festival is known for its relaxed and sophisticated atmosphere, making it a perfect outing for music lovers. Apart from the main stage performances, there will be workshops and masterclasses by the visiting artists. It's a wonderful opportunity to experience world-class jazz music in a beautiful setting. Tickets and the full lineup will be announced in the coming months. Mark your calendars for a soulful weekend of jazz.",
+    "location": "Jayamahal Palace Hotel, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T21:21:52.525+05:30"
+  },
+  {
+    "content": "A 'Financial Literacy for Women' workshop is being organized on August 24th, 2025. The workshop will be held at a women's club in Indiranagar from 2:00 PM to 5:00 PM. This workshop is designed to empower women with the knowledge and confidence to manage their finances effectively. A financial planner will cover topics like budgeting, saving, investing in different asset classes, and planning for financial goals like retirement and children's education. The workshop will be conducted in a simple and easy-to-understand manner, avoiding financial jargon. It's a safe and supportive space for women to ask questions and learn about personal finance. The workshop is free to attend, but registration is required. Take the first step towards your financial independence.",
+    "location": "Women's Club, Indiranagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T13:13:33.333+05:30"
+  },
+  {
+    "content": "The 'Bangalore Blockchain Week' is a week-long series of events dedicated to blockchain technology and its applications, from October 13th to 17th, 2025. The week will feature a main conference at a major hotel, along with a series of smaller meetups, workshops, and a hackathon held at various locations across the city. The conference will cover a wide range of topics, including DeFi, NFTs, enterprise blockchain, and Web3. It will bring together developers, entrepreneurs, investors, and policymakers from the global blockchain community. The Bangalore Blockchain Week is a great opportunity to get a comprehensive overview of the blockchain ecosystem and to network with the key people in the space. You can buy a pass for the main conference or attend the individual community events.",
+    "location": "Multiple Venues, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:09:19.919+05:30"
+  },
+  {
+    "content": "The 'Bangalore Running and Fitness Expo' is a two-day event held in conjunction with the Bangalore Marathon, on October 17th and 18th, 2025. The expo will be at the Kanteerava Indoor Stadium. The expo is a one-stop-shop for runners and fitness enthusiasts. All registered participants of the marathon have to visit the expo to collect their running bibs. The expo will feature stalls from leading brands in running shoes, apparel, nutrition, and fitness gadgets. There will be talks by expert runners, coaches, and nutritionists. It's a great place to get the latest gear, get expert advice, and soak in the excitement before the big race day. The expo is free and open to all, not just marathon participants.",
+    "location": "Kanteerava Indoor Stadium, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T11:11:11.121+05:30"
+  },
+  {
+    "content": "A 'Sufi Whirling Meditation' workshop is being offered on August 10th, 2025. This unique workshop will be held at a spiritual center in RT Nagar from 4:00 PM to 6:00 PM. Sufi whirling is an active meditation technique where you spin your body in a repetitive circle, which can lead to a state of trance and spiritual ecstasy. The workshop will be facilitated by a trained instructor who will teach the technique of whirling and guide the participants through the meditation. The workshop will be accompanied by live Sufi music. It is a powerful practice for centering the mind and connecting with your inner self. No prior experience is needed. Wear loose and comfortable clothing. Register online for this mystical experience.",
+    "location": "Spiritual Center, RT Nagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T14:14:44.444+05:30"
+  },
+  {
+    "content": "The 'Bangalore Arts and Crafts Mela' is an annual fair that showcases the rich craft traditions of India. The mela will be held from October 2nd to 12th, 2025, at the Karnataka Chitrakala Parishath. The fair will feature artisans from all over the country, selling a wide variety of handcrafted products, including textiles, pottery, woodwork, metalwork, and jewelry. It's a great opportunity to buy authentic and beautiful handicrafts directly from the artisans. The mela will also have live demonstrations by master craftspeople, allowing visitors to see how these beautiful objects are made. There will also be cultural performances and food stalls offering regional cuisines. It's a vibrant and colorful event that celebrates the skill and creativity of Indian artisans.",
+    "location": "Karnataka Chitrakala Parishath, Kumara Krupa Road, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:12:12.121+05:30"
+  },
+  {
+    "content": "The 'Bangalore Startup Job Fair' is a one-day event that connects talented job seekers with exciting startups. The job fair is on August 23rd, 2025, at the KTPO Convention Centre in Whitefield. Over 100 startups from various sectors will be hiring for roles in technology, product, design, marketing, and sales. It's a great opportunity for job seekers to meet with the founders and hiring managers of these startups and to learn about the vibrant work culture in the startup ecosystem. Job seekers can register for the event online and upload their resumes. Startups that are hiring can book a booth at the fair. If you are looking for a challenging and rewarding career in a fast-paced environment, this is the place to be.",
+    "location": "KTPO Convention Centre, Whitefield, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T08:08:8.080+05:30"
+  },
+  {
+    "content": "A 'Puppetry Show for Children' titled 'The Adventures of Tenali Rama' is being staged this Sunday, July 28th, 2025. The show is at the Atta Galatta bookstore in Koramangala at 11:00 AM. A professional puppetry troupe will bring the witty and wise character of Tenali Rama and his folk tales to life using colorful hand puppets. The show is interactive and engaging, with music and songs. It's a great way to introduce children to the traditional art of puppetry and the timeless stories of Indian folklore. The show is suitable for children aged 4 to 10. The duration of the show is about 50 minutes. Tickets are available at the venue and on booking platforms. Treat your kids to a morning of laughter and learning.",
+    "location": "Atta Galatta, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:10:10.101+05:30"
+  },
+  {
+    "content": "The 'Bangalore Tech Summit 2025', the flagship technology event of the Government of Karnataka, will be held from November 19th to 21st, 2025, at the Bangalore Palace. The summit is a convergence of leading players from the IT, biotech, and deep tech sectors. The event will feature a multi-track conference with global thought leaders, a large-scale exhibition showcasing the latest technologies and innovations, and a startup zone. The summit will cover a wide range of topics, including AI, IoT, robotics, biotech, and space technology. It is a premier platform for knowledge sharing, networking, and business development. The summit attracts a global audience of business leaders, policymakers, researchers, and investors. Registration for the summit is open on the official website.",
+    "location": "Bangalore Palace, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T09:09:09.090+05:30"
+  },
+  {
+    "content": "The 'Bangalore International Wine Festival' is an annual event that celebrates wines from around the world. The 2025 edition will be held on November 15th and 16th, 2025, at the Jayamahal Palace Hotel. The festival will feature over 200 wines from more than 50 wineries from India and abroad. Attendees can sample a wide variety of wines, attend masterclasses by renowned sommeliers, and participate in wine and food pairing sessions. The festival will also have grape stomping, live music, and gourmet food stalls. It's a sophisticated and fun-filled event for wine connoisseurs and enthusiasts. The ticket price includes a certain number of tasting coupons and a souvenir wine glass. It's a great opportunity to explore the world of wine in a beautiful setting. Tickets will be available online.",
+    "location": "Jayamahal Palace Hotel, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T12:12:22.212+05:30"
+  },
+  {
+    "content": "A 'Creative Writing Workshop' for beginners is being conducted on the weekend of August 2nd and 3rd, 2025. The workshop will be held at a quiet learning space in Jayanagar from 10:00 AM to 1:00 PM on both days. The workshop will be facilitated by a published author. It will cover the fundamentals of creative writing, including finding inspiration, developing characters, plotting a story, and writing effective descriptions and dialogue. The workshop will be interactive, with a lot of writing exercises and opportunities for participants to share their work and get feedback in a supportive environment. It's a great workshop for anyone who has a story to tell and wants to learn the craft of writing. Register online to unleash your inner writer.",
+    "location": "Learning Space, Jayanagar, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T10:10:01.010+05:30"
+  },
+  {
+    "content": "The 'Bangalore Hip-Hop Festival' is a one-day event celebrating all elements of hip-hop culture. The festival is on September 21st, 2025, at a large indoor venue in Koramangala. The festival will feature live performances by some of the country's top rappers and hip-hop artists. There will be dance battles with B-boys and B-girls showcasing their skills. The festival will also have a graffiti art showcase and workshops on beatboxing and DJing. It's a high-energy event that brings together the entire hip-hop community. If you are a fan of hip-hop music and culture, this is an event you cannot miss. Tickets for the festival will be available on major online platforms. Get ready for a day of sick beats, dope rhymes, and incredible dance moves.",
+    "location": "Indoor Venue, Koramangala, Bangalore",
+    "source": "event",
+    "createdAt": "2024-07-26T21:21:12.121+05:30"
+  }
+]
+```
