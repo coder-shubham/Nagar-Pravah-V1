@@ -23,7 +23,7 @@ class Question(BaseModel):
     text: str
 
 
-gemini_client = genai.Client(api_key="AIzaSyDOgIGjr0Xpij4d49mr78wQZ8Xe3smCWP8")
+gemini_client = genai.Client(api_key="")
 
 
 async def validate_mongo_uris_and_kbids(mongo_uris):
