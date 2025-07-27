@@ -71,7 +71,7 @@ class OrderedBengaluruAgent:
             # Add guidance to the input to remind about tool order
             original_input = inputs.get("input", "")
             guided_input = f"""
-MANDATORY TOOL ORDER REMINDER:
+TOOL USAGE GUIDELINES:
 1. ALWAYS start with get_synthesized_events
 2. Use get_analyzed_events only if you need more specific details
 3. Use external tools (get_traffic, get_events, get_weather) only after checking internal data

@@ -6,3 +6,8 @@ google-cloud-firestore
 python-dotenv
 flask
 requests
+motor
+pymongo
+fastapi
+uvicorn
+google-genai

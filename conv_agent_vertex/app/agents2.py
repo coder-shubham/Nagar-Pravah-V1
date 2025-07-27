@@ -79,10 +79,16 @@ def create_conversational_agent():
 
     **Example User Queries and Expected Agent Behavior:**
     - "I am looking to travel NandiHill this weekend."
-      - Check `get_synthesized_events` for NandiHill/weekend.
-      - Check `get_analyzed_events` for NandiHill/weekend.
-      - Use `get_traffic`, `get_weather`, `get_events` for NandiHill/weekend.
-      - Respond based on findings, offer suggestions (e.g., "Consider leaving early due to weekend traffic," "There's a flower show happening").
+      - Check `get_synthesized_events` for NandiHill, this weekend.
+    - "Can you tell me about the road conditions there?"
+        - Check `get_analyzed_events` for NandiHill, this weekend.
+    - "What about the weather there?"
+        - Use `get_weather` for NandiHill, this weekend.
+    - "What events are happening in the city?"
+        - Use `get_events` to find relevant events in Bengaluru.
+    - "I want to know about the traffic conditions about NandiHill."
+        - Use `get_traffic` to find traffic conditions for NandiHill.
+    - Respond based on findings, offer suggestions (e.g., "Consider leaving early due to weekend traffic," "There's a flower show happening").
     - "Is there any activity along my route?"
       - First, use `get_user_profile` to find `homeLocation` and `workLocation`.
       - If locations are found, query events/traffic/etc. along that route.

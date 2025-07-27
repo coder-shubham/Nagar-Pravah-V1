@@ -3,6 +3,8 @@ import logging
 from langchain.tools import tool
 from firestore_utils import get_collection_data
 from typing import Optional, List, Dict, Any
+from retriever import retrieve_chunks_from_all_kbs
+import asyncio
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -89,84 +91,45 @@ def get_weather(location: str) -> str:
 # --- Firestore Query Tools ---
 
 @tool
-def get_synthesized_events(query_params: str = "{}") -> str:
+def get_synthesized_events(query: str) -> str:
     """
     Retrieves synthesized stories/events from the 'synthesized-events' collection in Firestore.
     These are coherent stories derived from raw data.
     Useful for understanding major incidents, trends, or hidden connections in the city.
+    This is a higher-level summary compared to analyzed events. If the user is looking for a specific event or trend, this tool will provide a more narrative response.
     Args:
-        query_params (str): A JSON string of parameters to filter the events.
-                           Example: '{"category": "Traffic", "status": "active", "locationString": "NandiHill"}'
-                           Common filterable fields: 'title', 'content', 'status', 'severity',
-                           'locationString', 'category', 'sentiment'.
+        query (str): user string to filter the events.
     Returns:
         str: A formatted string of matching synthesized events or empty if none found.
     """
-    logger.info(f"Calling Firestore tool: get_synthesized_events with query: {query_params}")
+    logger.info(f"Calling Firestore tool: get_synthesized_events with query: {query}")
     try:
-        import json
-        # Parse query_params from JSON string
-        if query_params and query_params != "{}":
-            query_dict = json.loads(query_params)
-        else:
-            query_dict = None
-        logging.info(f"Querying synthesized events with parameters: {query_dict}")    
-            
-        events = get_collection_data("synthesized-events", query_dict)
-        if events:
-            logger.info(f"Found {len(events)} synthesized events.")
-            # Format events for the LLM
-            result_parts = []
-            for i, event in enumerate(events[:5], 1):  # Limit to first 5 events
-                event_info = f"Event {i}:\n"
-                for key in ['title', 'content', 'status', 'severity', 'locationString', 'category', 'suggestion', 'sentiment']:
-                    if key in event:
-                        event_info += f"  {key}: {event[key]}\n"
-                result_parts.append(event_info)
-            return "\n".join(result_parts)
-        logger.warning("No synthesized events found matching the criteria.")
-        return "No synthesized events found matching the criteria."
+        retrieved_data = asyncio.run(retrieve_chunks_from_all_kbs({"default": {"uri": "mongodb+srv://kartikayraheja:bQyCgeg9UC5jSzmZ@cluster0.awbhsa.mongodb.net/", "kb_ids": ["synthesized-events"]}}, query))
+        retrieved_data = [data.get('text', '') for data in retrieved_data]
+        return str(retrieved_data)
     except Exception as e:
-        logger.error(f"Error in get_synthesized_events tool with query {query_params}: {e}")
+        logger.error(f"Error in get_synthesized_events tool with query {query}: {e}")
         return f"Error retrieving synthesized events: {str(e)}"
 
 @tool
-def get_analyzed_events(query_params: str = "{}") -> str:
+def get_analyzed_events(query: str) -> str:
     """
     Retrieves analyzed events from the 'analyzed-events' collection in Firestore.
     These are verified and structured raw data points before synthesis.
     Useful for detailed, specific incidents that might not yet be part of a larger story.
+    This is a lower-level detail compared to synthesized events. If the user is looking for specific data points or recent incidents, this tool will provide that information.
     Args:
-        query_params (str): A JSON string of parameters to filter the events.
-                           Example: '{"category": "CivicIssue", "severity": "High", "locationString": "Koramangala"}'
-                           Common filterable fields: 'category', 'locationString', 'severity', 'content'.
+        query (str): user string to filter the events.
     Returns:
         str: A formatted string of matching analyzed events or empty if none found.
     """
-    logger.info(f"Calling Firestore tool: get_analyzed_events with query: {query_params}")
+    logger.info(f"Calling Firestore tool: get_analyzed_events with query: {query}")
     try:
-        import json
-        # Parse query_params from JSON string
-        if query_params and query_params != "{}":
-            query_dict = json.loads(query_params)
-        else:
-            query_dict = None
-            
-        events = get_collection_data("analyzed-events", query_dict)
-        if events:
-            logger.info(f"Found {len(events)} analyzed events.")
-            # Format events for the LLM
-            result_parts = []
-            for i, event in enumerate(events[:5], 1):  # Limit to first 5 events
-                event_info = f"Event {i}:\n"
-                for key in ['category', 'locationString', 'content', 'severity']:
-                    if key in event:
-                        event_info += f"  {key}: {event[key]}\n"
-                result_parts.append(event_info)
-            return "\n".join(result_parts)
-        return "No analyzed events found matching the criteria."
+        retrieved_data = asyncio.run(retrieve_chunks_from_all_kbs({"default": {"uri": "mongodb+srv://kartikayraheja:bQyCgeg9UC5jSzmZ@cluster0.awbhsa.mongodb.net/", "kb_ids": ["analyzed-events"]}}, query))
+        retrieved_data = [data.get('text', '') for data in retrieved_data]
+        return str(retrieved_data)
     except Exception as e:
-        logger.error(f"Error in get_analyzed_events tool with query {query_params}: {e}")
+        logger.error(f"Error in get_analyzed_events tool with query {query}: {e}")
         return f"Error retrieving analyzed events: {str(e)}"
 
 @tool
