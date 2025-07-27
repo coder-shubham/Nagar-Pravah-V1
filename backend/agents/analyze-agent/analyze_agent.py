@@ -28,34 +28,20 @@ from pymongo.operations import SearchIndexModel
 
 load_dotenv('.env',  override=True)
 
-
-"""
-const firebaseConfig = {
-  apiKey: "AIzaSyBfVf_w9up56L8o1zJAhPS-UHX57lumekA",
-  authDomain: "fir-pulse-app.firebaseapp.com",
-  projectId: "fir-pulse-app",
-  storageBucket: "fir-pulse-app.firebasestorage.app",
-  messagingSenderId: "660958366144",
-  appId: "1:660958366144:web:b5c3a21db6bd6cfad76025"
-};
-"""
-
-
-
 credentials = service_account.Credentials.from_service_account_file(
-    'nagar-pravah-fb-b49a37073a4a.json'
+    'serviceKey.json'
 )
 
 firestore_client = firestore.Client(project="nagar-pravah-fb", credentials=credentials)
 
-gmaps = googlemaps.Client(key='AIzaSyDJAVjVjtZmy9-Erp4BQnAVQzXeDrJdLy8')
+gmaps = googlemaps.Client(key='')
 
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-mongo_client = MongoClient("mongodb+srv://kartikayraheja:bQyCgeg9UC5jSzmZ@cluster0.awbhsa.mongodb.net/")
+mongo_client = MongoClient("mongodb+srv://user:id@cluster0.awbhsa.mongodb.net/")
 mongo_db = mongo_client["app_db"]
 collection_name = "analyzed-events"
 
@@ -190,8 +176,7 @@ class GeminiAnalyzeData:
     severity: AnalyzeSeverity
     text: str
 
-# gemini_creds = service_account.Credentials.from_service_account_file("linear-trees-831-9b636f056c58.json")
-gemini_client = genai.Client(api_key="AIzaSyDOgIGjr0Xpij4d49mr78wQZ8Xe3smCWP8")
+gemini_client = genai.Client(api_key="id")
 
 def generate_analyze_data(scout_data: ScoutData) -> AnalyzeData:
     prompt = f"""You are an analysis agent that takes in given data and transforms it into more meaningful and actionable insight.
@@ -241,7 +226,7 @@ def analyze_scout_data(batch_data: BatchScoutData):
     for item in batch_data.data:
         # Perform analysis on each ScoutData item
         uris= {"mongo_1":{
-                        "uri": "mongodb+srv://kartikayraheja:bQyCgeg9UC5jSzmZ@cluster0.awbhsa.mongodb.net/",
+                        "uri": "mongodb+srv://user:id@cluster0.awbhsa.mongodb.net/",
                         "kb_ids":["analyzed-events"]
                     }}
         response = text_deduplication(item.content, uris)
