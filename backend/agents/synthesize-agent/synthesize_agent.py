@@ -65,17 +65,17 @@ logger = logging.getLogger(__name__)
 """
 
 credentials = service_account.Credentials.from_service_account_file(
-    'nagar-pravah-fb-b49a37073a4a.json'
+    'serviceKey.json'
 )
 
 firestore_client = firestore.Client(project="nagar-pravah-fb", credentials=credentials)
 
-gmaps = googlemaps.Client(key='AIzaSyDJAVjVjtZmy9-Erp4BQnAVQzXeDrJdLy8')
+gmaps = googlemaps.Client(key='')
 
-mongo_client = MongoClient("mongodb+srv://kartikayraheja:bQyCgeg9UC5jSzmZ@cluster0.awbhsa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongo_client = MongoClient("mongodb+srv://user:id@cluster0.awbhsa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 mongo_db = mongo_client["app_db"]
 collection_name = "synthesize-events"
-gemini_client = genai.Client(api_key="AIzaSyDOgIGjr0Xpij4d49mr78wQZ8Xe3smCWP8")
+gemini_client = genai.Client(api_key="")
 
 def create_vector_index(collection):
     """Create a vector search index on the collection if it doesn't exist."""
@@ -481,7 +481,7 @@ def gemini_embed_text(texts):
 
 def check_for_related_events(text:str):
     related_or_similar_events = asyncio.run(retrieve_chunks_from_all_kbs(mongo_uris={"mongo_1":{
-                        "uri": "mongodb+srv://kartikayraheja:bQyCgeg9UC5jSzmZ@cluster0.awbhsa.mongodb.net/",
+                        "uri": "mongodb+srv://user:id@cluster0.awbhsa.mongodb.net/",
                         "kb_ids":["event_store"]
                     }}, query=text, top_k=5))
     for event in related_or_similar_events:
