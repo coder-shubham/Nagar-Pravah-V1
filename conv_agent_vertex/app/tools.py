@@ -104,7 +104,7 @@ def get_synthesized_events(query: str) -> str:
     """
     logger.info(f"Calling Firestore tool: get_synthesized_events with query: {query}")
     try:
-        retrieved_data = asyncio.run(retrieve_chunks_from_all_kbs({"default": {"uri": "mongodb+srv://kartikayraheja:bQyCgeg9UC5jSzmZ@cluster0.awbhsa.mongodb.net/", "kb_ids": ["synthesized-events"]}}, query))
+        retrieved_data = asyncio.run(retrieve_chunks_from_all_kbs({"default": {"uri": "mongodb+srv://user:id@cluster0.awbhsa.mongodb.net/"", "kb_ids": ["synthesized-events"]}}, query))
         retrieved_data = [data.get('text', '') for data in retrieved_data]
         return str(retrieved_data)
     except Exception as e:
@@ -125,7 +125,7 @@ def get_analyzed_events(query: str) -> str:
     """
     logger.info(f"Calling Firestore tool: get_analyzed_events with query: {query}")
     try:
-        retrieved_data = asyncio.run(retrieve_chunks_from_all_kbs({"default": {"uri": "mongodb+srv://kartikayraheja:bQyCgeg9UC5jSzmZ@cluster0.awbhsa.mongodb.net/", "kb_ids": ["analyzed-events"]}}, query))
+        retrieved_data = asyncio.run(retrieve_chunks_from_all_kbs({"default": {"uri": "mongodb+srv://user:id@cluster0.awbhsa.mongodb.net/", "kb_ids": ["analyzed-events"]}}, query))
         retrieved_data = [data.get('text', '') for data in retrieved_data]
         return str(retrieved_data)
     except Exception as e:
