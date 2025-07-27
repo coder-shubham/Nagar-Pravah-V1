@@ -157,6 +157,19 @@ The central orchestrator that manages the data processing pipeline:
 - **Deployment:** Containerized service with Docker
 - **Interface:** RESTful API and web interface
 
+### Architecture Diagram
+
+<img width="2354" height="1500" alt="image" src="https://github.com/user-attachments/assets/49ba65da-4305-4669-9a86-3d7465c7aaca" />
+
+### App Screen
+
+<img width="1702" height="931" alt="image" src="https://github.com/user-attachments/assets/ca185f9b-bcb1-4a13-a1ed-2ba4b334a81c" />
+
+<img width="1719" height="958" alt="image" src="https://github.com/user-attachments/assets/6355c0cb-0dbc-4756-906b-0bc8e5ce9322" />
+
+<img width="1710" height="967" alt="image" src="https://github.com/user-attachments/assets/bcbf0251-f0d5-4792-a686-d9730ed41b59" />
+
+
 ## 🔧 Google Cloud Services & Technologies Used
 
 NagarPravah leverages a comprehensive suite of Google Cloud Platform services:
@@ -187,6 +200,9 @@ NagarPravah leverages a comprehensive suite of Google Cloud Platform services:
 - **LangChain:** Framework for building LLM applications
 - **Google Cloud SDK:** Development and deployment tools
 - **Firebase CLI:** Command-line tools for Firebase
+
+### Frontend Application
+- **Firebase Studio** : Our full frontend Application is Built using Firebase Studio in Typescript
 
 ## 🚀 Setup and Deployment
 
